@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .logo {
+            width: 275px;
+            height: 100px;
+            margin: 100px auto 0 auto;
+            background: url(https://i.loli.net/2021/11/19/W3eJojcKXlSP9zL.jpg) center center no-repeat;
+            background-size: contain;
+        }
+
+        .remind {
+            text-align: center;
+        }
+
+        .search {
+            position: relative;
+            max-width: 582px;
+            height: 40px;
+            margin: 20px auto;
+            box-shadow: 0 0 0 1px #ccc;
+            border-radius: 24px;
+        }
+
+        .search > .icon-search {
+            position: absolute;
+            left: 16px;
+            top: 12px;
+            color: #999;
+            font-size: 16px;
+        }
+
+        .search > input {
+            height: 100%;
+            width: 100%;
+            font-size: 16px;
+            outline: none;
+            border: none;
+            border-radius: 24px;
+            padding: 0 40px;
+        }
+
+        .search:hover {
+            box-shadow: 0 0 4px 0px #ccc;
+        }
+
+        .buttons {
+            text-align: center;
+        }
+
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>数据统计</title>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1509788_honi9n2nqp9.css">
+    <script>
+        function upperCase() {
+            var x = document.getElementById("text").value
+            document.getElementById("text").value = x.toUpperCase()
+        }
+
+        function inputCheck() {
+            var value = document.getElementById("text").value
+            let reg = /^[A-Z0-9]{15}$|^[A-Z0-9]{18}$|^[A-Z0-9]{20}$/
+            if (reg.test(value)) {
+                //
+            } else
+                window.alert("输入错误！")
+        }
+
+        function setCookie(name, value, iDate) { //创建cookie
+            var oDate = new Date();
+            oDate.setDate(oDate.getDate() + iDate);
+
+            document.cookie = name + '=' + value + ';expires=' + oDate;
+        }
+
+        function getCookie(name) { //获取cookie
+            var aCookie = document.cookie.split('; ');
+            for (var i = 0; i < aCookie.length; i++) {
+                var aName = aCookie[i].split('=');
+                if (aName[0] == name) {
+                    return aName[1];
+                }
+            }
+            return '请输入税盘号';
+        }
+
+        function removeCookie(name) { //删除cookie
+            setCookie(name, 1, -1);
+            alert(getCookie('invoice'));
+        }
+
+        window.onload = function () {
+            var oForm = document.getElementById('form1');
+            var aName = document.getElementsByName('invoice')[0];
+
+            oForm.onsubmit = function () {
+                setCookie('invoice', aName.value, 14);
+            }
+
+            aName.value = getCookie('invoice');
+
+        }
+    </script>
+</head>
+<body>
+<form action="index.php" method="post" id="form1">
+    <div class="logo"></div>
+    <!-- <div class="remind">
+        <label><strong>输入查询企业税号</strong></label>
+    </div> -->
+    <div class="search">
+        <span class="iconfont icon-search"></span>
+        <input type="text" name="invoice" placeholder="输入查询企业税号" id="text" onblur="inputCheck()">
+
+    </div>
+    <div class="buttons">
+        <input type="submit" name="submit" id="submit" value="查询" style="  display: inline-block;
+      background: #eee;
+      font-size: 20px;
+      color: #666;
+      padding: 6px 12px;
+      margin: 16px 4px;
+      border-radius: 4px;">
+
+    </div>
+</form>
+
+</body>
+
+
+</html>

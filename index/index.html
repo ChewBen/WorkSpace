@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <!-- Site Metas -->
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <title>数据统计</title>
+
+    <!-- slider stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css"/>
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet"/>
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet"/>
+    <script>
+        function inputCheck() {
+            var value = document.getElementById("text").value
+            let reg = /^[A-Z0-9]{15}$|^[A-Z0-9]{18}$|^[A-Z0-9]{20}$/
+            if (reg.test(value)) {
+                //
+            } else
+                window.alert("输入错误！")
+        }
+
+        function setCookie(name, value, iDate) { //创建cookie
+            var oDate = new Date();
+            oDate.setDate(oDate.getDate() + iDate);
+
+            document.cookie = name + '=' + value + ';expires=' + oDate;
+        }
+
+        function getCookie(name) { //获取cookie
+            var aCookie = document.cookie.split('; ');
+            for (var i = 0; i < aCookie.length; i++) {
+                var aName = aCookie[i].split('=');
+                if (aName[0] == name) {
+                    return aName[1];
+                }
+            }
+            return '请输入税盘号';
+        }
+
+        function removeCookie(name) { //删除cookie
+            setCookie(name, 1, -1);
+            alert(getCookie('invoice'));
+        }
+
+        window.onload = function () {
+            var oForm = document.getElementById('form1');
+            var aName = document.getElementsByName('invoice')[0];
+
+            oForm.onsubmit = function () {
+                setCookie('invoice', aName.value, 14);
+            }
+
+            aName.value = getCookie('invoice');
+
+        }
+    </script>
+</head>
+
+<body>
+<div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg custom_nav-container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="" width="20opx"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+    <section class=" slider_section ">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <div class="slider_detail-box">
+                                    <h1>
+                                        欢迎来到 <br>
+                                        电子发票 <br>
+                                        的时代<br>
+                                    </h1>
+                                    <div class="btn-box">
+                                        <a href="" class="btn-1">
+                                            立刻了解
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end slider section -->
+</div>
+
+<!-- find section -->
+<section class="find_section layout_padding2">
+    <div class="container">
+        <form action="index.php"method="post"id="form1">
+            <div>
+                <h5>
+                    查询您的电子发票数据
+                </h5>
+            </div>
+            <div class=" form-row">
+                <div class="col-sm-4">
+                    <input type="text" name="invoice" class="form-control" placeholder="请输入税盘号" id="text" onblur="inputCheck()">
+                </div>
+            </div>
+            <div class="d-flex justify-content-center justify-content-sm-end">
+                <button type="submit" class="">
+                    Search
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- end find section -->
+<section class="about_section layout_padding">
+    <div class="container">
+        <div class="heading_container">
+            <h2>
+                如何打印电子发票
+            </h2>
+            <hr>
+        </div>
+        <p>
+        <h4>聚星壹开电子发票打印二维码步骤</h4>
+
+        <div>
+            <a href="https://mp.weixin.qq.com/s/Kx-iM0RYo9JwJfeylQOJog">
+                点击了解
+            </a>
+        </div>
+        </p>
+    </div>
+</section>
+<!-- car section -->
+<section class="about_section layout_padding">
+    <div class="container">
+        <div class="heading_container">
+            <h2>
+                关于电子发票
+            </h2>
+            <hr>
+        </div>
+        <div>
+            <p>
+            <h3> 一、做好开票规划
+            </h3>
+            <h5> 给您的七条建议</h5>
+            <ol>
+                <li>开票一定不要都集中到最后一个月，尤其是政策快要到期的最后几天。</li>
+                <li>今年的业务，发票尽量选择今年开具，不要涉及跨年，后面一旦没有延期政策，再想开1%就非常困难了。</li>
+                <li>如果增值税纳税义务确实发生在2021年，因跟客户未对好账等原因，未开发票。第四季度增值税纳税申报时，一定要报未开票收入，这样的话2022年可以补开1%发票。</li>
+                <li> 其他...</li>
+            </ol>
+            </p>
+        </div>
+        <div>
+            <a href="http://m.jsyqyf.cn/app/index.php?i=20&c=entry&m=ewei_shopv2&do=mobile&r=article&aid=29&mid=3527">
+                Read More
+            </a>
+        </div>
+        <div>
+            <p>
+            <h4>二、税务Ukey常见问题</h4>
+            <ol>
+                <li>税务Ukey更换电脑数据恢复失败，显示税务Ukey文件不存在？</li>
+                <li>税务UKey新增了专票的票种，在线更新提示“组装的报文长度错误”</li>
+                <li>税务UKey清卡提示“请先抄报税控器具661806050283，未抄报发票数据信息”</li>
+                <li>在税务UKey无法找到作废的发票，也无法查询之前月份开具的发票？</li>
+                <li>其他...</li>
+            </ol>
+            <div>
+                <a href="https://mp.weixin.qq.com/s/fS1_olT1gnsL-6U3GtpPUw">
+                    Read More
+                </a>
+            </div>
+            </p>
+            <p>
+            <h4>三、发票相关热点问题</h4>
+            <ol>
+                <li>小规模纳税人征收率由3%降为1%的政策是如何规定的？</li>
+                <li>如何查询增值税发票真伪？</li>
+                <li>电子普通发票如何领用？</li>
+                <li>其他...</li>
+            </ol>
+            <div>
+                <a href="https://mp.weixin.qq.com/s/tqBDfIhugfvFzRkQ8pMdJQ">
+                    Read More
+                </a>
+            </div>
+            </p>
+        </div>
+    </div>
+</section>
+
+</body>
+
+</html>
