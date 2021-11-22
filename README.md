@@ -1,2 +1,2 @@
 # WorkSapce
-This is [an example](http://example.com/ "Title") inline link.
+This is [example](https://chewben.github.io/WorkSapce/) inline link.
