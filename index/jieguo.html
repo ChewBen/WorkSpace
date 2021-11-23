@@ -13,7 +13,6 @@
     }
 
     body {
-      display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -53,48 +52,6 @@
       text-align: center;
     }
 
-    #q-graph td {
-      transition: all 0.3s ease;
-    }
-
-    #q-graph td:hover {
-      background-color: #4d4d4d;
-      opacity: 0.9;
-      color: white;
-    }
-
-    #q-graph thead tr {
-      left: 100%;
-      top: 50%;
-      bottom: auto;
-      margin: -2.5em 0 0 5em;
-    }
-
-    #q-graph thead th {
-      width: 5em;
-      height: auto;
-      padding: 0.5em 1em;
-    }
-
-    #q-graph thead th.sent {
-      top: 0;
-      left: 0;
-      line-height: 2;
-    }
-
-    #q-graph thead th.paid {
-      top: 2.75em;
-      line-height: 2;
-      left: 0;
-    }
-
-    #q-graph tbody tr {
-      height: 296px;
-      padding-top: 2px;
-      border-right: 1px dotted #C4C4C4;
-      color: #AAA;
-    }
-
     #q-graph #q1 {
       left: 0;
     }
@@ -128,7 +85,7 @@
     }
 
     #q-graph .bar p {
-      margin: 5px 0 0;
+      margin: 4px 0 0;
       padding: 0;
       opacity: 0.4;
     }
@@ -145,19 +102,12 @@
       border-color: transparent;
     }
 
-    #ticks .tick p {
-      position: absolute;
-      left: -5em;
-      top: -0.8em;
-      margin: 0 0 0 0.5em;
-    }
-
     * {
       background-color: #F0F8FF;
     }
 
     .container {
-      max-width: 800px;
+      max-width: 1000px;
       margin: 20px auto;
       border-radius: 4px;
       box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.3);
@@ -165,7 +115,7 @@
       padding-top: 0px;
       padding-bottom: 16px;
       padding-left: 16px;
-      overflow: hidden;
+      overflow:scroll;
     }
 
     .tabs .tab-header {
@@ -268,12 +218,6 @@
           <div class="item">
             <div class="item-header iconfont icon-fapiao1">小票累计总数:</div><!--小票数输入-->
           </div>
-
-          <!-- <div class="item">
-              <div class="item-header"></div>
-              <div class="item-content">
-              </div>
-          </div>-->
         </div>
       </div>
       <div>
@@ -307,11 +251,6 @@
               <div class="item">
                 <div class="item-header iconfont icon-xitongzhuangtai">软件状态：</div><!--软件状态输入-->
               </div>
-              <!-- <div class="item">
-                  <div class="item-header"></div>
-                  <div class="item-content">
-                  </div>
-              </div>-->
             </div>
           </div>
         </div>
@@ -324,22 +263,22 @@
           <caption style="font-size: 15px">累计开票总数统计图</caption>
           <tbody>
           <tr class="qtr" id="q1">
-            <th scope="row" class="rowname">第一季度</th>
+            <th scope="row" >第一季度</th>
             <td class="sent bar" style="height: 111px;"><p>小票数</p></td>
             <td class="paid bar" style="height: 99px;"><p>开票数</p></td>
           </tr>
           <tr class="qtr" id="q2">
-            <th scope="row" class="rowname">第二季度</th>
+            <th scope="row" >第二季度</th>
             <td class="sent bar" style="height: 206px;"><p>小票数</p></td>
             <td class="paid bar" style="height: 194px;"><p>开票数</p></td>
           </tr>
           <tr class="qtr" id="q3">
-            <th scope="row" class="rowname">第三季度</th>
+            <th scope="row" >第三季度</th>
             <td class="sent bar" style="height: 259px;"><p>小票数</p></td>
             <td class="paid bar" style="height: 193px;"><p>开票数</p></td>
           </tr>
           <tr class="qtr" id="q4">
-            <th scope="row" class="rowname">第四季度</th>
+            <th scope="row">第四季度</th>
             <td class="sent bar" style="height: 259px;"><p>小票数</p></td>
             <td class="paid bar" style="height: 193px;"><p>开票数</p></td>
           </tr>
