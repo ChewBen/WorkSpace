@@ -13,7 +13,6 @@
     }
 
     body {
-      display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -116,7 +115,7 @@
       padding-top: 0px;
       padding-bottom: 16px;
       padding-left: 16px;
-      overflow:scroll;
+
     }
 
     .tabs .tab-header {
@@ -285,12 +284,14 @@
           </tr>
           </tbody>
         </table>
+
       </div>
     </div>
   </div>
 </div>
 
 <script>
+
   var date = new Date()<!--获得日期数据-->
   var y = date.getFullYear();
   var m = date.getMonth() + 1;
