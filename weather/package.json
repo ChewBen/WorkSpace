@@ -1,0 +1,14 @@
+{
+  "name": "weatherchew01",
+  "version": "1.0.0",
+  "description": "天气模块",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Chewy",
+  "license": "ISC"
+}
