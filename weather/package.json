@@ -10,5 +10,8 @@
     "weather"
   ],
   "author": "Chewy",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
 }

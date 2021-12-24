@@ -2,7 +2,7 @@ const axios = require("axios")
 
 function getWeather(city) {
     return new Promise((resolve, reject) => {
-        axios.get('https://api2.jirengu.com/getWeather.php?city=${city} ')
+        axios.get('https://api2.jirengu.com/getWeather.php?city=${encodeURI(city)} ')
             .then(response => {
                 console.log(response)
                 resolve(response)
@@ -11,9 +11,6 @@ function getWeather(city) {
                 reject=> ('网络异常')
             })
     })
-        .then(function () {
-            // always executed
-        })
 }
 
 module.exports = getWeather
