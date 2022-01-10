@@ -2,7 +2,12 @@
 
 
 /*!*banner*!*/
-
+#main > itembg{
+height: 410px;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
 
 /*.banner {*/
 
@@ -776,6 +781,55 @@
 
 
 /*======================================= part1 new banner ============================================*/
+
+.v-tenant .header {
+    width: 100%;
+    color: #fff
+}
+
+.v-tenant .header img {
+    width: 100%
+}
+
+.v-tenant .header .title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: PingFang-SC-Bold;
+    font-weight: 700;
+    font-size: 23px;
+    top: 30px
+}
+
+.v-tenant .header .sub_title {
+    position: absolute;
+    width: 100%;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    top: 68px
+}
+
+.v-tenant .header .head_button {
+    position: absolute;
+    top: 112px;
+    left: calc(50% - 75px);
+    text-align: center
+}
+
+.v-tenant .header .head_button a {
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    background-color: #deb85b;
+    border-radius: 4px
+}
 
 .head_botton {
     background-color: transparent;
