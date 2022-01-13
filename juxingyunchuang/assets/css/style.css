@@ -466,14 +466,14 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero .hero-img img {
     width: 70%;
-margin-top: -100px;
+margin-top: 10px;
   }
 }
 
 @media (max-width: 575px) {
   #hero .hero-img img {
     width: 80%;
-    margin-top: -100px;
+    margin-top: 10%;
   }
   #hero .btn-get-started {
     font-size: 16px;
