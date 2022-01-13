@@ -445,6 +445,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-animation: none;
     animation: none;
   }
+
   #hero .hero-img {
     text-align: center;
   }
@@ -465,12 +466,14 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero .hero-img img {
     width: 70%;
+margin-top: -100px;
   }
 }
 
 @media (max-width: 575px) {
   #hero .hero-img img {
     width: 80%;
+    margin-top: -100px;
   }
   #hero .btn-get-started {
     font-size: 16px;
