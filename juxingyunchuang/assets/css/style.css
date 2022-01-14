@@ -1179,11 +1179,11 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 .pricing .row {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .pricing .box {
-  padding: 60px 40px;
+  padding: 15px 5px;
   box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
   background: #fff;
   height: 100%;
@@ -1203,7 +1203,7 @@ section {
   color: #37517e;
   font-weight: 400;
   font-family: "Jost", sans-serif;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .pricing h4 sup {
@@ -1217,7 +1217,7 @@ section {
 }
 
 .pricing ul {
-  padding: 20px 0;
+  padding: 15px 0;
   list-style: none;
   color: #999;
   text-align: left;
@@ -1225,7 +1225,7 @@ section {
 }
 
 .pricing ul li {
-  padding: 10px 0 10px 30px;
+  padding: 5px 0 10px 20px;
   position: relative;
 }
 
