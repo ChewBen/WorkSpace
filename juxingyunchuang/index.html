@@ -17,7 +17,6 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link rel="stylesheet" href="../node_modules/city-picker/bootstrap-chinese-region.css">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -34,47 +33,73 @@
 <body>
 
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top ">
-        <div class="container d-flex align-items-center">
-<!-- <img src="assets/img/logo1.jpg"  class="logo me-auto" alt=""> -->
-            <!-- <h1 class="logo me-auto"><a href="index.html">聚星电票</a></h1> -->
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="index.html" class="logo me-auto"><img src="assets/img/logo2.png" alt="" class="img-fluid"></a>
-
-            <nav id="navbar" class="navbar">
+        <header id="header" class="fixed-top header-inner-pages">
+            <div class="container d-flex align-items-center">
+              <!-- Uncomment below if you prefer to use an image logo -->
+              <a href="index.html" class="logo me-auto"><img src="assets/img/IMG_1556.PNG" alt="" class="img-fluid"></a>
+      
+              <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">首页</a></li>
-                    <li><a class="nav-link scrollto" href="#about">关于我们</a></li>
-                    <li><a class="nav-link scrollto" href="#services">政策推广</a></li>
-                    <!-- <li><a class="nav-link   scrollto" href="#portfolio">公司产品</a></li> -->
-                    <!-- <li><a class="nav-link scrollto" href="#team">团队</a></li> -->
-                    <!-- <li class="dropdown"><a href="#"><span>服务场景</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="#">Drop Down 1</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Drop Down 1</a></li>
-                                    <li><a href="#">Deep Drop Down 2</a></li>
-                                    <li><a href="#">Deep Drop Down 3</a></li>
-                                    <li><a href="#">Deep Drop Down 4</a></li>
-                                    <li><a href="#">Deep Drop Down 5</a></li>
-                                </ul>
+                  <li><a class="nav-link scrollto" href="#hero">主页</a></li>
+                  <li><a class="nav-link scrollto" href="#about">关于我们</a></li>
+                  <!-- 
+                        
+                          <li><a class="nav-link scrollto" href="#services">服务</a></li>                   
+                          <li><a class="nav-link scrollto" href="#team">团队</a></li>
+                         -->
+                  <li class="dropdown">
+                    <a href="#"
+                      ><span>电票发票服务</span> <i class="bi bi-chevron-down"></i
+                    ></a>
+                    <ul>
+                      <li><a href="SM_Page/Sm_Page.html">电票扫码版</a></li>
+                      <!-- 
+                                      <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                                      <ul>
+                                          <li><a href="#">Deep Drop Down 1</a></li>
+                                          <li><a href="#">Deep Drop Down 2</a></li>
+                                          <li><a href="#">Deep Drop Down 3</a></li>
+                                          <li><a href="#">Deep Drop Down 4</a></li>
+                                          <li><a href="#">Deep Drop Down 5</a></li>
+                                      </ul>
+                                  </li> 
                             </li>
-                            <li><a href="#">Drop Down 2</a></li>
-                            <li><a href="#">Drop Down 3</a></li>
-                            <li><a href="#">Drop Down 4</a></li>
-                        </ul>
-                    </li> -->
-                    <li><a class="nav-link scrollto" href="#contact">联系我们</a></li>
-                    <li><a class="getstarted scrollto" href="#contact">成为伙伴</a></li>
+                                  </li> 
+                              -->
+                      <li><a href="LP_Page/Lp_Page.html">码上开票</a></li>
+                      <li><a href="PL_Page/PL_Page.html">批量开票</a></li>
+                      <li><a href="">发票解决方案</a></li>
+                      <li><a href="DA_Page/DA_Page.html">档案管理</a></li>
+                    </ul>
+                  </li>
+            
+                  <li class="dropdown">
+                    <a href="#"
+                      ><span>收银系统</span><i class="bi bi-chevron-down"></i
+                    ></a>
+                    <ul>
+                      <li><a href="#">菜么么</a></li>
+                      <li><a href="">天财商龙</a></li>
+                      <li><a href="">银豹</a></li>
+                      <li></li>
+                    </ul>
+                  </li>
+                 
+                  <li class="dropdown">
+                    <a href="#"
+                      ><span>私域流量服务（数字化经营）</span
+                      ><i class="bi bi-chevron-down"></i
+                    ></a>
+                  </li>
+                  <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
+                  <li><a class="getstarted scrollto" href="#about">立即了解</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>
-            <!-- .navbar -->
-
-        </div>
-    </header>
-    <!-- End Header -->
+              </nav>
+              <!-- .navbar -->
+            </div>
+          </header>
+          <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center">
@@ -108,27 +133,7 @@
     <main id="main">
 
         
-        <!-- ======= About Us Section ======= -->
-        <section id="about" class="about">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>关于我们</h2>
-                </div>
-
-                <div class="row content">
-                    <div class="col-lg-6">
-                        <p>
-                            聚鑫呗是-家行业领先的互联网软件公司，,公司核心产品聚星壹开电子发票系统于2020年11月正式上线，以电子发票电子化改革为切入口，税务大数据为驱动力，加速商家和中小企业实现电发票，税务筹划，财税咨询等数字化经济的转型升级，公司相继取得5项软件著作权，产品获得了客户的高度认可，2021年公司先后获得高新技术企业和科技型中小企业等荣誉称号
-                        </p>
-                        <a href="#" class="btn-learn-more">了解更多</a>
-                    </div>
-                
-                </div>
-
-            </div>
-        </section>
-        <!-- End About Us Section -->
+       
 
         <!-- ======= Why Us Section ======= -->
         <section id="why-us" class="why-us section-bg">
@@ -515,62 +520,7 @@
         </section> -->
         <!-- End Team Section -->
 
-        <!-- ======= Pricing Section ======= -->
-        <section id="pricing" class="pricing">
-            <div class="container" data-aos="fade-up" style="margin: 0px 0px;"> 
-
-                <div class="section-title" style="margin-bottom: -10px -10px;">
-                    <h2>服务商升级</h2>
-                    <!-- <p>TODO</p>  -->
-                </div>
-
-                <div class="row">
-
-                    <!-- <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="box">
-                            <h3>扫码版</h3>
-                            <h4><sup>¥</sup>3990<span>10套</span></h4>
-                            <ul>
-                                <li><i class="bx bx-check"></i> 商家打印电票提取二维码小票</li>
-                                <li><i class="bx bx-check"></i> 消费者扫码自助开具电子发票</li>                              
-                            </ul>
-                            <a href="#" class="buy-btn">立即了解</a>
-                        </div>
-                    </div> -->
-
-                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
-                        <div class="box featured">
-                            <h3>扫码版</h3>
-                            <h4><sup>¥</sup>8970<span>30套</span></h4>
-                            <ul>
-                                <li><i class="bx bx-check"></i> 商家打印电票提取二维码小票</li>
-                                <li><i class="bx bx-check"></i> 消费者扫码自助开具电子发票</li>
-                           
-                                
-                                
-                            </ul>
-                            <a href="#" class="buy-btn">立即了解</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-                        <div class="box">
-                            <h3>立牌版</h3>
-                            <h4><sup>¥</sup>5970<span>30套</span></h4>
-                            <ul>
-                                <li><i class="bx bx-check"></i> 支持模糊查询 板式文件后台管理</li>
-                                <li><i class="bx bx-check"></i> 顾客扫一扫 极速开票、纸票、电票都兼容</li>
-                                <li class="na"><i class="bx bx-x"></i> <span>输入金额一键开票</span></li>
-                            </ul>
-                            <a href="#" class="buy-btn">立即了解</a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-            </div>
-        </section>
-        <!-- End Pricing Section -->
+      
 
         <!-- ======= Frequently Asked Questions Section ======= -->
         <section id="faq" class="faq section-bg">
@@ -594,7 +544,7 @@
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="200">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">加盟店铺有哪些优势?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">加盟电票有哪些优势?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                                 <p>
                                 
@@ -765,6 +715,27 @@
         </section>
         <!-- End Contact Section -->
 
+         <!-- ======= About Us Section ======= -->
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>关于我们</h2>
+                </div>
+
+                <div class="row content">
+                    <div class="col-lg-6">
+                        <p>
+                            聚鑫呗是-家行业领先的互联网软件公司，,公司核心产品聚星壹开电子发票系统于2020年11月正式上线，以电子发票电子化改革为切入口，税务大数据为驱动力，加速商家和中小企业实现电发票，税务筹划，财税咨询等数字化经济的转型升级，公司相继取得5项软件著作权，产品获得了客户的高度认可，2021年公司先后获得高新技术企业和科技型中小企业等荣誉称号
+                        </p>
+                        <a href="#" class="btn-learn-more">了解更多</a>
+                    </div>
+                
+                </div>
+
+            </div>
+        </section>
+        <!-- End About Us Section -->
     </main>
     <!-- End #main -->
 
@@ -841,6 +812,57 @@
             <div class="credits"></div>
         </div>
     </footer> -->
+    <hr>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h3>聚星呗网络科技有限公司</h3>
+                    <p>
+                        盐城市城南新区新弄里2号楼909室<br>
+                        <strong>服务热线:</strong> 400-044-0515<br>
+                        <strong>邮箱:</strong>juxingdp@126.com<br>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>快速了解</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">主页</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">关于我们</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>明星产品</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="SM_Page/SM_Page.html">电子发票扫描版</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="LP_Page/LP_Page.html">电子发票立牌版</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="PL_Page/PL_Page.html">批量开票极速版</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="DA_Page/DA_Page.html">电票档案管理系统</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>联系我们</h4>
+                    <p>您可以通过以下方式联系我们 <br>服务热线：400-044-0515</p>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+        <div class="copyright">Copyright &copy; 2021.Company name All rights reserved.
+            <!-- <a target="_blank" href="#">&#x7F51;&#x9875;&#x6A21;&#x677F;</a> -->
+        </div>
+        <div class="credits"></div>
+    </div>
+</footer>
+<!-- End Footer -->
     <!-- End Footer -->
 
     <div id="preloader"></div>
