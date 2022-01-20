@@ -3,247 +3,139 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="">
+    <title>聚星壹开发票助手-扫码版</title>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>E开发票助手 - 扫码版</title>
-    <!-- Favicon -->
-    <link rel="SHORTCUT ICON" href="img/Caikaixin.ico" />
-    <!-- CSS here -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/public.css">
-    <link rel="stylesheet" href="css/public_t.css">
-<link href="../assets/css/style_inset.css" rel="stylesheet">
-    <style type="text/css">
-        .slicknav_menu .slicknav_icon-bar {
-            background: #000 !important;
-        }
-
-        .header-area .main-header-area .main-menu ul li:hover>.submenu {
-            opacity: 0.9;
-        }
-
-        .list_item img {
-            display: inline-block;
-            z-index: 1;
-            height: 80px;
-        }
-
-        @media (max-width: 575px) and (min-width: 320px) {
-            .welcome-content-5 h2 {
-                font-size: 20px !important;
-            }
-            .welcome-content-5 h5 {
-                font-size: 14px !important;
-            }
-            .download-content h4 {
-                font-size: 28px;
-            }
-            .section-title h2 {
-                font-size: 26px;
-            }
-            .section-title p {
-                font-size: 15px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .table td {
-                font-weight: normal;
-                font-size: 12px;
-            }
-            .title_intro {
-                font-size: 14px;
-            }
-        }
-
-        .welcome-thumb {
-            -webkit-animation-delay: 0s;
-            animation-delay: 0s;
-            -webkit-animation-name: bounce_fountainG;
-            animation-name: bounce_fountainG;
-            -webkit-animation-duration: 0s;
-            animation-duration: 0s;
-            -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-            -webkit-animation-direction: normal;
-        }
-
-        .animation-thumb {
-            top: 34%;
-            left: -16%;
-            -webkit-animation-delay: 0s;
-            animation-delay: 0s;
-            -webkit-animation-name: bounce_fountainG;
-            animation-name: bounce_fountainG;
-            -webkit-animation-duration: 0s;
-            animation-duration: 0s;
-            -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-            -webkit-animation-direction: normal;
-            animation-direction: normal;
-        }
-
-        tr,
-        td {
-            text-align: center;
-        }
-
-        .pricing-table-new .pricing-table .table-content li {
-            text-align: left;
-            font-weight: normal;
-            color: #fff;
-        }
-
-        .pricing-table-new .pricing-table .table-content {
-            position: relative;
-            display: block;
-            padding: 40px 0px 17px 0px;
-        }
-
-        .h-100 {
-            height: 104% !important;
-        }
-
-        .section-padding-100-50 {
-            padding-bottom: 0;
-        }
-
-        .theme-bg {
-            background: transparent;
-        }
-
-        .bg-gray-cu {
-            background: transparent;
-        }
-
-        .bg-overlay-3:before {
-            background: transparent;
-        }
-
-        .welcome-content-5 h3 {
-            font-size: 40px;
-            letter-spacing: 4px;
-        }
-
-        .title {
-            margin-bottom: 20px;
-        }
-    </style>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="images/moredo.ico">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mystyle.css">
 </head>
 
 <body>
-    <!-- 导航栏 -->
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a href="../index.html" class="navbar-brand">
-            <span class="glyphicon glyphicon-leaf"></span>
-          </a>
-        </div>
-      </div>
-    </nav>
-    
-    <!--banner-->
-    <div class="welcome-area home-5 bg-overlay-3 bg-img" style="background-image: url(img/add/SM_bg.jpg);">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-md-1"></div>
-                <div class="col-md-5">
-                    <div class="welcome-content-5 mt-sm-100">
-                        <h3 class="wow" style="font-weight: bold;">聚星壹开发票助手-扫码版 </h3>
-
-                        <h2 style="color: #fff;">无纸高效、只需三秒！</h2>
-                    </div>
+    <!-- 导航 -->
+    <header id="header">
+        <!-- 导航 -->
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
                 </div>
-                <div class="col-md-6">
-                    <img src="img/add/SM_ight.png" class="img-responsive banner-right" />
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+                <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="nav_menu"><a href="index.html">首页</a></li>
+                        <li class="nav_menu"><a href="../SM_Page/SM_Page.html">聚星壹开发票助手-扫码版</a></li>
+                        <li class="nav_menu active_menu"><a href="../LP_Page/LP_Page.html">码上开票</a></li>
+                        
+                        <li class="nav_menu"><a href="../PL_Page/PL_Page.html">批量开票极速版</a></li>
+                        <li class="nav_menu"><a href="../FA_Page/FA_Page.html">发票解决方案</a></li>
+                      
+                    </ul>
                 </div>
             </div>
-        </div>
-    </div>
-    <!--视频介绍-->
-    <div class="our-service-area section-padding-100-50" style="background-image: url(img/bg-img/video_1.jpg);">
+        </nav>
+    </header>
+    <section class="indexWrap">
+        <section class="index_block">
+            <img src="images/smkp_bg.png" class="index_bg">
+            <section class="index_content">
+                <h3 class="banner_title">消费者体验确实好！</h3>
+                <p class="banner_text">适用于门店/窗口类行业，消费者扫码传抬头或自助开电票。<br>分立牌版、小票版、码上开票(传抬头)</p>
+                <div class="header-btn">
+                    <a href="download/盟度发票助手-小票版.zip" class="btn-custom btn-border btn-icon smooth-scroll">小票版下载</a>
+                    <span>（免费使用7天）</span>
+                </div>
+            </section>
+        </section>
+    </section>
+    <div class="container-wrap">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-7">
-                    <div class="section-title t_center">
-                        <img src="img/bg-img/video.png" class="head" />
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section__title-wrapper text-center mb-60">
+                        <h2 class="section__title">视频介绍</h2>
                     </div>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-8 col-lg-12">
-                    <video controls="controls" poster="img/add/sm_sp.png" width="100%">
-                    <source src="../assets/media/166.MP4" type="video/mp4">
+                    <video controls="controls" poster="images/sm_sp.png" class="sp_video">
+                    <source src="images/sm.mp4" type="video/mp4" class="sp_video">
                 </video>
                 </div>
             </div>
         </div>
     </div>
-    <!-- 产品介绍 -->
-    <div class="our-service-area section-padding-100-50">
+    <div class="container-wrap">
         <div class="container">
-            <!--产品介绍-->
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-7">
-                    <div class="section-title t_center">
-                        <img src="img/add/introce.png" class="head" />
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section__title-wrapper text-center mb-60">
+                        <h2 class="section__title">产品介绍</h2>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <h6 class="text-center title_intro">
-                        电子发票预开软件，解决窗口、柜台类商户开票慢、经常排队的问题。 商户通过固定电脑或手持设备打印发票提取单， 消费者用微信或支付宝扫描提取单二维码自助开具电子发票。
-                    </h6>
-                </div>
+                <p class="text-center title_intro">电子发票预开软件，解决窗口、柜台类商户开票慢、经常排队的问题。<br/>商户通过固定电脑或手持设备打印发票提取单，<br/>消费者用微信或支付宝扫描提取单二维码自助开具电子发票。</p>
+            </div>
+            <div class="row">
                 <div class="col-md-12 text-center">
-                    <img src="img/add/pro.png" />
+                    <img src="images/pro.png" class="pro_img">
                 </div>
             </div>
         </div>
     </div>
-    <!--使用场景-->
-    <div class="our-service-area section-padding-100-50">
+    <div class="container-wrap">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-7">
-                    <div class="section-title t_center">
-                        <img src="img/add/SM_two.png" class="head" />
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section__title-wrapper text-center mb-60">
+                        <h2 class="section__title">使用场景</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
                     <div class="content-box">
-                        <div class="inner-box wow">
+                        <div class="inner-box wow animated animated">
                             <div class="row">
                                 <div class="col-md-6 col-lg-4">
                                     <div class="home-solution-item-warp">
                                         <div class="home_img">
-                                            <img src="img/add/sences_one.png" class="img-responsive" />
+                                            <img src="images/sences_one.png" class="img-responsive">
                                         </div>
                                         <p class="home_title">面对面二维码小票</p>
                                         <p class="home_dec">
                                             有电脑和开票打印机<br>的开票场景
                                         </p>
-                                        <div class="show_scenes_block">
+                                        <div class="show_scenes_block" style="top: 100%;">
                                             <p>1.门店、柜台面对面开票（如：餐厅、酒店、加油站、停车场）</p>
                                             <p>2.固定金额、批量打印（如：机场大巴、船票、景点门票、博物馆门票、动物园门票、体检中心、活动套票）</p>
                                             <p>3.随货寄送小票</p>
-                                            <!--<a class="show_scenes_flag" href="case.html">客户案例&nbsp;>></a>-->
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-4">
                                     <div class="home-solution-item-warp">
                                         <div class="home_img">
-                                            <img src="img/add/sences_two.png" class="img-responsive" />
+                                            <img src="images/sences_two.png" class="img-responsive">
                                         </div>
                                         <p class="home_title">面对面动态二维码</p>
                                         <p class="home_dec">
                                             有手机、pos等<br>移动类设备的开票场景
                                         </p>
-                                        <div class="show_scenes_block">
+                                        <div class="show_scenes_block" style="top: 100%;">
                                             <p>1.出租车</p>
                                             <p>2.移动收费（如：餐厅、路边停车）</p>
                                             <p>3.上门收费（如：货到付款、水电物业、快递）</p>
@@ -253,13 +145,13 @@
                                 <div class="col-md-6 col-lg-4">
                                     <div class="home-solution-item-warp">
                                         <div class="home_img">
-                                            <img src="img/add/sences_three.png" class="img-responsive" />
+                                            <img src="images/sences_three.png" class="img-responsive">
                                         </div>
                                         <p class="home_title">面对面固定二维码</p>
                                         <p class="home_dec">
                                             商品种类少、有审核需求<br>且没有打印小票条件的开票场景
                                         </p>
-                                        <div class="show_scenes_block">
+                                        <div class="show_scenes_block" style="top: 100%;">
                                             <p>1.无电脑、小票打印机的门店</p>
                                             <p>2.户外开票</p>
                                             <p>3.培训、会议开票</p>
@@ -272,18 +164,17 @@
                             </div>
                         </div>
                     </div>
-                    <img src="img/add/CJ.png" />
+                    <img src="images/CJ.png" class="pro_img" style="padding-top: 30px;">
                 </div>
             </div>
         </div>
     </div>
-    <!--产品特点-->
-    <div class="our-service-area section-padding-100-50">
+    <div class="container-wrap">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-7">
-                    <div class="section-title t_center">
-                        <img src="img/add/SM_three.png" class="head" />
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section__title-wrapper text-center mb-60">
+                        <h2 class="section__title">产品特点</h2>
                     </div>
                 </div>
             </div>
@@ -295,8 +186,8 @@
                             <p>只需打印小票<br>软件自动开具电票</p>
                         </div>
                         <a class="ima">
-                                    <img src="img/add/hot01.png"/>
-                                </a>
+                        <img src="images/hot01.png">
+                    </a>
                     </section>
                 </div>
                 <div class="col-md-3">
@@ -306,8 +197,8 @@
                             <p>无需额外硬件<br>无需改造业务系统</p>
                         </div>
                         <a class="ima">
-                                    <img src="img/add/hot02.png"/>
-                                </a>
+                        <img src="images/hot02.png">
+                    </a>
                     </section>
                 </div>
                 <div class="col-md-3">
@@ -317,8 +208,8 @@
                             <p>支持批量打印小票<br>支持单明细及多明细开票</p>
                         </div>
                         <a class="ima">
-                                    <img src="img/add/hot03.png"/>
-                                </a>
+                        <img src="images/hot03.png">
+                    </a>
                     </section>
                 </div>
                 <div class="col-md-3">
@@ -328,97 +219,119 @@
                             <p>自定义小票打印信息<br>小票开票率实时统计</p>
                         </div>
                         <a class="ima">
-                                    <img src="img/add/hot04.png"/>
-                                </a>
+                        <img src="images/hot04.png">
+                    </a>
                     </section>
                 </div>
             </div>
         </div>
     </div>
-    <!-- 产品流程 -->
-    <div class="our-service-area section-padding-100-50">
+    <div class="container-wrap" style="padding-bottom: 60px;">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-7">
-                    <div class="section-title t_center">
-                        <img src="img/add/LC_title.png" class="head" />
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section__title-wrapper text-center mb-60">
+                        <h2 class="section__title">使用流程</h2>
                     </div>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-12 text-center">
-                    <img src="img/add/LC.png" />
+                    <img src="images/LC.png" class="pro_img">
                 </div>
             </div>
         </div>
     </div>
-
-
-<hr>
-    <!-- 底部 -->
-   <footer>
-    <div class="footer-top">
-      <div class="container">
-          <div class="row">
-
-              <div class="col-lg-3 col-md-6 footer-contact">
-                  <h3>聚星呗网络科技有限公司</h3>
-                  <p>
-                      盐城市城南新区新弄里2号楼909室<br>
-                      <strong>服务热线:</strong> 400-044-0515<br>
-                      <strong>邮箱:</strong>juxingdp@126.com<br>
-                  </p>
-              </div>
-
-              <div class="col-lg-3 col-md-6 footer-links">
-                  <h4>快速了解</h4>
-                  <ul>
-                      <li><i class="bx bx-chevron-right"></i> <a href="#">主页</a></li>
-                      <li><i class="bx bx-chevron-right"></i> <a href="#">关于我们</a></li>
-                  </ul>
-              </div>
-
-              <div class="col-lg-3 col-md-6 footer-links">
-                  <h4>明星产品</h4>
-                  <ul>
-                      <li><i class="bx bx-chevron-right"></i> <a href="SM_Page/SM_Page.html">电子发票扫描版</a></li>
-                      <li><i class="bx bx-chevron-right"></i> <a href="LP_Page/LP_Page.html">电子发票立牌版</a></li>
-                      <li><i class="bx bx-chevron-right"></i> <a href="PL_Page/PL_Page.html">批量开票极速版</a></li>
-                      <li><i class="bx bx-chevron-right"></i> <a href="DA_Page/DA_Page.html">电票档案管理系统</a></li>
-                      
-                  </ul>
-              </div>
-
-              <div class="col-lg-3 col-md-6 footer-links">
-                  <h4>联系我们</h4>
-                  <p>您可以通过以下方式联系我们 <br>服务热线：400-044-0515</p>
-                  
-              </div>
-
-          </div>
-      </div>
-  </div>
-
-  <div class="container footer-bottom clearfix">
-      <div class="copyright">Copyright &copy; 2021.Company name All rights reserved.
-          <!-- <a target="_blank" href="#">&#x7F51;&#x9875;&#x6A21;&#x677F;</a> -->
-      </div>
-      <div class="credits"></div>
-  </div>
-</footer>
-    <!-- JS here -->
-    <script src="js/jquery-1.9.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/bundle.js"></script>
-    <script src="js/main.js"></script>
+    <!--底部-->
+    <div class="footer-contact-area section-padding-100-0">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-2" style="margin-top: 2%;">
+                    <div class="footer-single-widget mb-50">
+                        <div class="footer-logo text-center">
+                            <a href="#"><img src="images/content/bg/wechat_code.jpg" alt=""></a>
+                            <p style="padding-top: 15px;">扫码关注公众号</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-5">
+                    <div class="footer-single-widget mb-50">
+                        <h4>联系我们（北京总部）</h4>
+                        <ul>
+                            <li><a href="#"><i class="ti-mobile"></i> 服务热线：400-6677-818&nbsp;&nbsp;&nbsp;&nbsp;010-82783415 </a></li>
+                            <li><a href="#"><i class="ti-email"></i> QQ：800183415</a></li>
+                            <li><a href="#"><i class="ti-location-pin"></i> 北京市海淀区上地信息路11号彩虹大厦北楼西区207室</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="footer-single-widget mb-50">
+                        <h4>产品合作</h4>
+                        <ul>
+                            <li><a href="#"><i class="ti-email"></i> 商务合作：business@moredo.cn</a></li>
+                            <li><a href="#"><i class="ti-email"></i> 加入我们：hr@moredo.cn</a></li>
+                            <li><a href="#"><i class="ti-email"></i> 产品合作：sale@moredo.cn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="copy-right-menu">
+                            <ul>
+                                <li><a href="http://www.moredo.cn/" target="_blank">公司官网</a></li>
+                                <li><a href="http://www.moredo.cn/about.html?href1" target="_blank">公司简介</a></li>
+                                <li><a href="http://www.moredo.cn/about.html?href2" target="_blank">联系我们</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-right mt-sm-cu-30">
+                        <div class="copy-right-content">
+                            <p>Copyright 2016-2022 北京盟度知汇科技有限公司 <a href="http://beian.miit.gov.cn/" target="_blank">京ICP备2021018691号</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--留言板-->
+    <ins id="newBridge" style="display: block;">
+    <ins class="nb-nodeboard-base nb-nodeboard-position-base nb-nodeboard-left-bottom nb-show" style="left: 20px; right: auto; top: auto; bottom: 10px; margin-left: 0px; margin-top: 0px; height: auto;">
+        <ins class="nb-nodeboard-contain-base nb-nodeboard-contain">
+            <ins id="nb_nodeboard_top" class="nb-nodeboard-top nb-nodeboard-top-0" style="background-color: transparent;">
+                <ins class="nb-head-title">我要咨询</ins>
+    <ins class="nb-nodeboard-close" id="nb_nodeboard_close" data-type="min"></ins>
+    </ins>
+    <form id="nb_nodeboard_form" autocomplete="off" class="nb-board-form" method="post" accept-charset="utf-8">
+        <ins id="nb_nodeboard_set" class="nb-nodeboard-set" style="display: block">
+                    <ins class="nb-nodeboard-content">
+                        <textarea id="nb-nodeboard-set-content-js" name="content"data-ph="请在此输入留言内容，我们会尽快与您联系。" placeholder="请在此输入留言内容，我们会尽快与您联系。"class="nb-nodeboard-set-content nb-nodeboard-param"></textarea>
+                    </ins>
+        <ins class="nb-nodeboard-name nb-nodeboard-ext-input" style="z-index:2;">
+                        <ins class="nb-nodeboard-icon nodeExt"></ins>
+        <input id="nb_nodeboard_ext_2" class="nb-nodeboard-input nb-nodeboard-param" maxlength="50" type="text" placeholder="公司全称">
+        <!--                         <ins class="nb-nodeboard-tips" id="nb-nodeboard-tips-js" style="">公司全称不能为空</ins>-->
+        </ins>
+        <ins class="nb-nodeboard-name" id="nb_nodeboard_phone" style="z-index: 5">
+                        <ins class="nb-nodeboard-icon nodePhone"></ins>
+        <input id="nb_nodeboard_set_phone" name="visitorPhone" maxlength="30" type="text" class="nb-nodeboard-input nb-nodeboard-param" placeholder="电话（必填）">
+        <!--                         <ins class="nb-nodeboard-tips" id="nb-nodeboard-tips-js" style="">电话不能为空</ins>-->
+        </ins>
+        <ins class="nb-nodeboard-send" id="nb_node_contain">
+                        <ins id="nb_nodeboard_send" needverifycode="1" class="nb-nodeboard-send-btn nb-nodeboard-send-btn-0" data-name="扫码开票">发送</ins>
+        </ins>
+        </ins>
+    </form>
+    </ins>
+    </ins>
+    </ins>
+    <!-- JavaScripts -->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/message.js"></script>
     <script>
-        //底部
-        $(function() {
-            $(".footerpage").load("footer.html");
-        });
-        $(function() {
-            $(".top").load("header.html");
-        });
         //开票场景特效
         $(".home-solution-item-warp").hover(
             function() {
@@ -433,21 +346,7 @@
             }
         )
     </script>
-     <!-- Vendor JS Files -->
-    
-     <script src="../assets/vendor/aos/aos.js"></script>
-     <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-     <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-     <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-     <script src="../assets/vendor/php-email-form/validate.js"></script>
-     <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-     <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
- 
-     <!-- Template Main JS File -->
-     <script src="../assets/js/main.js"></script>
-     <script src="../node_modules/jquery/dist/jquery.js"></script>
-     <script src="../node_modules/city-picker/cityPicker.js"></script>
-     <script src="../node_modules/city-picker/bootstrap-chinese-region.js"></script>
+
 </body>
 
 </html>

@@ -1,0 +1,232 @@
+.home-solution-item-warp {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 10px 0 rgba(106, 141, 235, .2);
+}
+
+.home_img {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+}
+
+.home-solution-item-warp .home_title {
+    color: #6c7280;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+.home_dec {
+    font-size: 14px;
+    color: #6c7180;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 400;
+    width: 72%;
+    display: block;
+    margin: 0 auto;
+}
+
+.wap {
+    margin-top: 5%;
+}
+
+.footer-logo a img {
+    max-width: 90px;
+}
+
+.gmaps {
+    height: 450px;
+    width: 100%;
+    border: 0;
+}
+
+.footer-single-widget h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 3%;
+}
+
+.footer-single-widget ul li {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.footer-single-widget ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-single-widget ul li a {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.90);
+    position: relative;
+    -webkit-transition-duration: 400ms;
+    -o-transition-duration: 400ms;
+    transition-duration: 400ms;
+    font-weight: 400;
+}
+
+.footer-single-widget ul li a i {
+    margin-right: 5px;
+}
+
+.footer-single-widget ul li a:hover {
+    color: #fff;
+}
+
+.footer-single-widget p {
+    color: rgba(255, 255, 255, 0.90);
+    margin-bottom: 0;
+}
+
+.copy-right-area {
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.copy-right-menu ul li {
+    display: inline-block;
+}
+
+.copy-right-menu ul li a {
+    color: rgba(255, 255, 255, 0.85);
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.footer-single-widget ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: auto;
+    width: 0px;
+    height: 1px;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+    background: currentColor;
+}
+
+.footer-single-widget ul li a:hover::after {
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.copy-right-content p {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-contact-icon {
+    margin-top: 20px;
+}
+
+.footer-contact-icon a {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 10px;
+    -webkit-transition-duration: 400ms;
+    -o-transition-duration: 400ms;
+    transition-duration: 400ms;
+}
+
+.footer-contact-icon a:hover {
+    color: #21c87a;
+}
+
+/*用户评价*/
+
+.anli-img-new {
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    margin: 0 auto 16px;
+}
+
+.anli-img-new img {
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    border: 6px solid rgba(255, 255, 255, 0.2);
+}
+
+.fz14 {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.userInt {
+    text-align: left;
+    text-indent: 25px;
+    padding-left: 2px;
+}
+
+.fz16 {
+    font-size: 16px;
+}
+
+.title_bottom {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 3%;
+    color: #000;
+    margin-top: 4.375rem;
+    text-align: center;
+}
+
+.in-box-sty {
+    display: inline-block;
+    width: 32.125rem;
+    height: 4.5rem;
+    border-radius: 2.875rem;
+    background-color: black;
+    position: relative;
+}
+
+.verifyWarn {
+    height: 4.5rem;
+    width: 22.5rem;
+    position: absolute;
+    left: 1.875rem;
+    top: 0;
+    border: none;
+    background-color: black;
+    outline: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.im-try {
+    width: 10.375rem;
+    height: 3.8rem;
+    border-radius: 2.875rem;
+    border: none;
+    position: absolute;
+    right: 5px;
+    top: 0.3475rem;
+    background-color: #d19c32;
+    font-size: 2.125rem;
+    letter-spacing: 0.125rem;
+    display: block;
+    line-height: 3.8rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.input-bottom {
+    width: 100%;
+    height: 16.625rem;
+    text-align: center;
+}
