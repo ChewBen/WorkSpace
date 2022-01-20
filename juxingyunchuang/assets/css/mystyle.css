@@ -36,7 +36,7 @@ input::-webkit-outer-spin-button {
     font-weight: 400;
 }
 
-/* - Internet Explorer 10â€“11
+/* - Internet Explorer 10–11
    - Internet Explorer Mobile 10-11 */
 
 :-ms-input-placeholder {
@@ -120,7 +120,7 @@ a {
 }
 
 #header .header-content .header-txt h1 {
-    font-family: "æ€æºé»‘ä½“ CN light";
+    font-family: "思源黑体 CN light";
     font-size: 47px;
     letter-spacing: 3px;
 }
@@ -185,7 +185,7 @@ a {
     /*    background-image: url("images/content/bg/bg_iphone.jpg")!important;*/
     /*}*/
     #header .header-content .header-txt h1 {
-        font-family: "æ€æºé»‘ä½“ CN light";
+        font-family: "思源黑体 CN light";
         font-size: 27px;
         letter-spacing: 3px;
     }
@@ -216,7 +216,7 @@ a {
     }
     .post-heading-left h2 {
         font-size: 26px !important;
-        font-family: å¾®è½¯é›…é»‘;
+        font-family: 微软雅黑;
         letter-spacing: 3px;
     }
     .affa-feature-icon h4 {
@@ -248,7 +248,7 @@ a {
     }
 }
 
-/*æ‰‹æœºå°ºå¯¸banneré«˜åº¦*/
+/*手机尺寸banner高度*/
 
 @media (max-width: 480px) {
     #header .header-content {
@@ -261,7 +261,7 @@ a {
     }
 }
 
-/*PCç«¯banner*/
+/*PC端banner*/
 
 /*#header .header-bg{*/
 
@@ -291,7 +291,7 @@ a {
 
 .affa-feature-icon h4 {
     margin: 10px 0 0 0;
-    font-family: å¾®è½¯é›…é»‘;
+    font-family: 微软雅黑;
     letter-spacing: 2px;
     font-size: 16px;
     font-weight: normal;
@@ -308,13 +308,13 @@ a {
 
 .post-heading-left h2 {
     font-size: 36px;
-    font-family: å¾®è½¯é›…é»‘;
+    font-family: 微软雅黑;
     letter-spacing: 3px;
 }
 
 .post-heading-left h2 {
     font-size: 36px;
-    font-family: å¾®è½¯é›…é»‘;
+    font-family: 微软雅黑;
     letter-spacing: 3px;
 }
 
@@ -345,10 +345,11 @@ a {
 }
 
 #header .navbar-brand img {
-    height: 30px;
+    margin-top: -15px;
+    height: 60px;
 }
 
-/*ç•™è¨€æ¿*/
+/*留言板*/
 
 #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-nodeboard-close {
     display: inline-block;
@@ -576,7 +577,7 @@ tr:nth-of-type(even) {
 
 .affa-feature-icon h4 {
     margin: 20px 0 0 0;
-    font-family: å¾®è½¯é›…é»‘;
+    font-family: 微软雅黑;
     letter-spacing: 3px;
     font-size: 22px;
     font-weight: normal;
@@ -614,7 +615,7 @@ ul {
 
 .post-heading-left h2 {
     font-size: 31px;
-    font-family: å¾®è½¯é›…é»‘;
+    font-family: 微软雅黑;
     letter-spacing: 3px;
     line-height: 52px;
 }
@@ -626,7 +627,7 @@ ul {
 
 .post-heading-left h2 {
     font-size: 31px;
-    font-family: å¾®è½¯é›…é»‘;
+    font-family: 微软雅黑;
     letter-spacing: 3px;
 }
 
@@ -652,7 +653,7 @@ ul {
     margin-bottom: 0 !important;
 }
 
-/*ç•™è¨€æ¿*/
+/*留言板*/
 
 #newBridge {
     font-family: Arial, Helvetica, "Microsoft YaHei", sans-serif;
@@ -1074,7 +1075,8 @@ ul {
         height: 50px;
     }
     #header .navbar-brand img {
-        height: 20px;
+        margin-top: -8px;
+        height: 40px;
     }
     .indexWrap {
         margin-top: 50px;

@@ -345,7 +345,8 @@ a {
 }
 
 #header .navbar-brand img {
-    height: 30px;
+    margin-top: -15px;
+    height: 60px;
 }
 
 /*留言板*/
@@ -1074,7 +1075,8 @@ ul {
         height: 50px;
     }
     #header .navbar-brand img {
-        height: 20px;
+        margin-top: -8px;
+        height: 40px;
     }
     .indexWrap {
         margin-top: 50px;
