@@ -4283,7 +4283,7 @@ img.parallax-slider.loaded,
     }
     #header .navbar-brand img {
         height: auto;
-        max-height: 50px;
+        max-height: 80px;
     }
     #header .navbar-nav#header .navbar-nav {
         display: block;

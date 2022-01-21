@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/ionicons.min.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="../assets/css/mystyle.css">
+    <link rel="stylesheet" href="../assets/css/shangqiao.css">
 </head>
 
 <body>
@@ -55,7 +56,7 @@
                 <h3 class="banner_title">聚星壹开发票助手-扫码版</h3>
                 <p class="banner_text">3秒出票，无纸高效！<br>分立牌版、小票版、码上开票(传抬头)</p>
                 <div class="header-btn">
-                    <a href="download/盟度发票助手-小票版.zip" class="btn-custom btn-border btn-icon smooth-scroll">小票版下载</a>
+                    <a href="https://jsyqyf.cn/addons/ytao_universal_reserve/core/web/index.php?r=/mobile/form/index&acid=4&form_id=7" class="btn-custom btn-border btn-icon smooth-scroll">立即试用</a>
                     <span>（免费使用7天）</span>
                 </div>
             </section>
@@ -260,7 +261,6 @@
                         <ul>
                             <li><a href="#"><i class="ti-mobile"></i> 服务热线：400-044-0515</a></li>
                             <li><a href="#"><i class="ti-email"></i> 邮箱：juxingdp@126.com</a></li>
-                            <li><a href="#"><i class="ti-location-pin"></i> 盐城市城南新区新弄里2号楼909室</a></li>
                         </ul>
                     </div>
                 </div>
@@ -298,39 +298,41 @@
         </div>
     </div>
     <!--留言板-->
-    <ins id="newBridge" style="display: block;">
-    <ins class="nb-nodeboard-base nb-nodeboard-position-base nb-nodeboard-left-bottom nb-show" style="left: 20px; right: auto; top: auto; bottom: 10px; margin-left: 0px; margin-top: 0px; height: auto;">
-        <ins class="nb-nodeboard-contain-base nb-nodeboard-contain">
-            <ins id="nb_nodeboard_top" class="nb-nodeboard-top nb-nodeboard-top-0" style="background-color: transparent;">
-                <ins class="nb-head-title">我要咨询</ins>
-    <ins class="nb-nodeboard-close" id="nb_nodeboard_close" data-type="min"></ins>
-    </ins>
-    <form id="nb_nodeboard_form" autocomplete="off" class="nb-board-form" method="post" accept-charset="utf-8">
-        <ins id="nb_nodeboard_set" class="nb-nodeboard-set" style="display: block">
-                    <ins class="nb-nodeboard-content">
-                        <textarea id="nb-nodeboard-set-content-js" name="content"data-ph="请在此输入留言内容，我们会尽快与您联系。" placeholder="请在此输入留言内容，我们会尽快与您联系。"class="nb-nodeboard-set-content nb-nodeboard-param"></textarea>
-                    </ins>
-        <ins class="nb-nodeboard-name nb-nodeboard-ext-input" style="z-index:2;">
-                        <ins class="nb-nodeboard-icon nodeExt"></ins>
-        <input id="nb_nodeboard_ext_2" class="nb-nodeboard-input nb-nodeboard-param" maxlength="50" type="text" placeholder="公司全称">
-        <!--                         <ins class="nb-nodeboard-tips" id="nb-nodeboard-tips-js" style="">公司全称不能为空</ins>-->
-        </ins>
-        <ins class="nb-nodeboard-name" id="nb_nodeboard_phone" style="z-index: 5">
-                        <ins class="nb-nodeboard-icon nodePhone"></ins>
-        <input id="nb_nodeboard_set_phone" name="visitorPhone" maxlength="30" type="text" class="nb-nodeboard-input nb-nodeboard-param" placeholder="电话（必填）">
-        <!--                         <ins class="nb-nodeboard-tips" id="nb-nodeboard-tips-js" style="">电话不能为空</ins>-->
-        </ins>
-        <ins class="nb-nodeboard-send" id="nb_node_contain">
-                        <ins id="nb_nodeboard_send" needverifycode="1" class="nb-nodeboard-send-btn nb-nodeboard-send-btn-0" data-name="扫码开票">发送</ins>
-        </ins>
-        </ins>
-    </form>
-    </ins>
-    </ins>
-    </ins>
+    <div class="guanggao-dbbox">
+        <div class="nb-nodeboard-top">
+            <span class="fl">请您留言</span>
+            <span class="fr" id="nb-close"><img src="../assets/img/nodeMax.png" alt=""></span>
+            <span class="fr" id="nb-gb"><img src="../assets/img/nodeMax.png" alt=""></span>
+            <span class="fr" id="nb-show"><img src="../assets/img/nodeMin.png" alt=""></span>
+        </div>
+        <div class="nb-nodeboard-text">
+            <p class="nb-nodeboard-company">百万机遇，等您激发</p>
+            <p class="nb-nodeboard-link">立即咨询</p>
+        </div>
+        <form id="nb_nodeboard_form" autocomplete="off" class="nb-board-form" action="" method="post" >
+            <div class="nb-nodeboard-content">
+                <textarea id="nb-nodeboard-set-content-js" name="square"  placeholder="请在此输入留言内容，我们会尽快与您联系。(必填)"></textarea>
+                <p class="nb-nodeboard-tips" id="nb-nodeboard-tips-js"></p>
+            </div>
+    
+            <div class="nb-nodeboard-inputbox" id="nb-nodeboard-name" >
+                <span class="nb-nodeboard-icon nodeName"></span>
+                <input id="nb_nodeboard_set_name" data-write="0" name="name" maxlength="10"  type="text"  placeholder="姓名">
+            </div>
+    
+            <div class="nb-nodeboard-inputbox" id="nb_nodeboard_phone" >
+                <span class="nb-nodeboard-icon nodePhone"></span>
+                <input id="nb_nodeboard_set_phone" name="tel" maxlength="11" class="nb-nodeboard-param"  type="text"  placeholder="手机号(必填)">
+            </div>
+            <p class="nb-nodeboardphone-tips" id="nb-nodeboardphone-tips-js"></p>
+            <div id="nb_nodeboard_send" needverifycode="1" class="nb-nodeboard-send-btn">发 送</div>
+        </form>
+    </div>
     <!-- JavaScripts -->
+    <script src=""></script>
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="js/message.js"></script>
+<script src="../assets/js/shangqiao.js" type="text/javascript"></script>
     <script>
         //开票场景特效
         $(".home-solution-item-warp").hover(

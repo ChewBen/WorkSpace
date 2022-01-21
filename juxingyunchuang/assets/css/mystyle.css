@@ -345,124 +345,11 @@ a {
 }
 
 #header .navbar-brand img {
-    margin-top: -15px;
-    height: 60px;
+    margin-top: -20px;
+    height: 80px;
 }
 
 /*留言板*/
-
-#newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-nodeboard-close {
-    display: inline-block;
-    float: right;
-    height: 46px;
-    width: 34px;
-    cursor: pointer;
-    background: transparent url("../images/content/extreme/nodeMin.png") no-repeat;
-    background-position: 0 center;
-    background-size: 50%;
-}
-
-#newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-nodeboard-max {
-    background: transparent url("../images/content/extreme/nodeMax.png") no-repeat;
-    background-position: 0 center;
-}
-
-#newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form {
-    display: inline;
-    background-color: #ededed;
-}
-
-#newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-content {
-    position: relative;
-    width: 216px;
-    margin: 8px auto;
-}
-
-#newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-set-content {
-    width: 215px;
-    height: 88px;
-    margin: 12px auto 7px;
-    padding: 10px 12px;
-    resize: none;
-    overflow: hidden;
-    border: 1px solid #DCDFE6;
-    background-color: #fff;
-    text-align: left;
-    outline: 0;
-    border-radius: 4px;
-    font-size: 12px;
-    line-height: 18px;
-}
-
-#newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-name {
-    height: 36px;
-    width: 215px;
-    line-height: 32px;
-    margin: 8px auto 20px;
-    border: 1px solid #DCDFE6;
-    position: relative;
-    border-radius: 4px;
-    font-size: 14px;
-}
-
-#newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-icon {
-    width: 24px;
-    height: 24px;
-    display: inline-block;
-    vertical-align: top;
-    padding: 0 0 0 20px;
-    box-sizing: border-box;
-    margin-top: 5px;
-}
-
-#newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-input {
-    margin: 0;
-    width: 172px;
-    height: 32px;
-    font-size: 12px;
-    line-height: 32px;
-    _overflow: hidden;
-    border: none;
-    display: inline-block;
-    outline: 0;
-    padding: 0;
-}
-
-#newBridge .nodeExt {
-    background: #fff url("../images/content/extreme/custom-select.png") no-repeat center center;
-}
-
-#newBridge .nodePhone {
-    background: #fff url("../images/content/extreme/nodephone.png") no-repeat 9px center;
-}
-
-#newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-nodeboard-send {
-    width: 218px;
-    margin: 12px auto 0 10px;
-    padding-bottom: 12px;
-    overflow: hidden;
-}
-
-#newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-nodeboard-send-btn {
-    height: 32px;
-    width: 70px;
-    line-height: 32px;
-    text-align: center;
-    border-radius: 4px;
-    font-size: 12px;
-    color: #fff;
-    cursor: pointer;
-    float: right;
-    background-color: #2752f5;
-}
-
-#newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-tips {
-    position: absolute;
-    left: 0;
-    color: #E64552;
-    line-height: 22px;
-}
-
 .nb-nodeboard-err {
     margin-bottom: 20px;
     border-color: #E64552;
@@ -1075,8 +962,8 @@ ul {
         height: 50px;
     }
     #header .navbar-brand img {
-        margin-top: -8px;
-        height: 40px;
+        margin-top: -20px;
+        height: 70px;
     }
     .indexWrap {
         margin-top: 50px;
