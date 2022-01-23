@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta charset="UTF-8">
+    <meta name="description" content="菜么么是一个基于云计算的、SAAS模式的软件及服务平台。平台提供餐饮企业运营管理所需要的全案信息化支撑系统，以业务层获取的基础数据，为餐饮企业提供专业化的运营服务。">
+    <meta name="keywords" content="点菜系统|点菜软件|无线点菜|菜么么餐饮软件|无锡地区免费上门安装|无锡知易|餐饮软件服务商|无锡本地化服务|点菜宝点菜|微信点餐|积分管理|自媒体营销|老板查询|库存采购管理|总部数据下发|物流配送|快餐软件|奶茶系统|烘焙软件|苏州餐饮软件|苏州点菜系统|苏州本地化服务|面馆|茶楼">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <title>菜么么餐饮SAAS系统</title>
+    <link rel="stylesheet" type="text/css" href="css/webstyle.css" />
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <link href="css/swiper.min.css" rel="stylesheet" />
+    <script type="text/javascript">
+        $(function() {
+            var myDate = new Date();
+            var year = myDate.getFullYear();
+            $('#year').html(year);
+            $('#year').css('color', '#898989');
+            $('#year').css('fontSize', '12px');
+        });
+
+        function showmenu() {
+            $('.menudiv').animate({
+                left: "0px"
+            });
+
+        }
+
+        function hidemenu() {
+            $('.menudiv').animate({
+                left: "-235px"
+            });
+        }
+
+        function tanchu() {
+            $('.tanchuceng').show();
+        }
+
+        function tccclose() {
+            $('.tanchuceng').hide();
+            $('.screen').show();
+        }
+
+        function tijiao() {
+            var dname = $('#dname').val();
+            var dphone = $('#dphone').val();
+            var dusername = $('#dusername').val();
+            var daddress = $('#daddress').val();
+
+
+        }
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- 弹出层 -->
+        <!--         <div class="tanchuceng">
+            <div class="tanchucengclose" onclick="tccclose();"><img src="images/close.png" width="32px" height="32px" /></div>
+            <h3>免费申请</h3>
+            <table>
+                <tr><td width="50">店名称</td><td><input type="text" id="dname" class="tccinput" /></td></tr>
+                <tr><td width="50">手机号</td><td><input type="text" id="dphone" class="tccinput" /></td></tr>
+                <tr><td width="50">店主名</td><td><input type="text" id="dusername" class="tccinput" /></td></tr>
+                <tr><td width="50" >店地址</td><td><textarea rows="5" id="daddress" class="tcctextarea"></textarea></td></tr>
+               
+                <tr><td width="50"></td><td><input type="button" value="提交" class="tccanniu" onclick="tijiao();" /></td></tr>
+            </table>
+        </div> -->
+        <!-- 弹出层 -->
+        <!-- 覆盖层 -->
+        <div class="screen"></div>
+        <div class="menudiv">
+            <div class="menudivclose" onclick="hidemenu();"><img src="images/close.png" width="32px" height="32px" /></div>
+            <div class="menudivlogo"><img src="images/logo.png" width="75px" /></div>
+            <div class="menusa">
+                <a href="index.html" target="_self">网站首页</a>
+                <a href="product.html" target="_self">产品中心</a>
+                <a href="partners.html" target="_self">合作伙伴</a>
+                <a href="aboutus.html" target="_self" style="border:0px;">关于我们</a>
+            </div>
+            <!-- <div class="menuewm"><img src="images/code.png" width="120px" height="120px" /></div> -->
+            <div class="menubq">Copyright© 2010-<span id="year"></span><a id="par_beian" href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action;jsessionid=JNGvTjQJP3" target="_blank">苏ICP备18001047号</a></div>
+        </div>
+        <!-- 覆盖层 -->
+        <div class="main bg">
+            <div class="header">
+                <div class="menus" onclick="showmenu();"><img src="images/menus.png" /></div>
+                <div class="logo"><img src="images/logo.png" /></div>
+                <!-- <div class="button"><input type="button" value="免费申请" onclick="tanchu();" /></div> -->
+            </div>
+            <div class="clear"></div>
+            <div class="banner">
+                <h2>让餐饮管理更高效、更方便、更智能</h2>
+                <p class="desc">移动互联网时代，更专业的餐饮管理软件</p>
+                <img src="images/home.png" height="170" />
+            </div>
+
+        </div>
+        <div class="downLoad">
+            <h3>么么助手下载</h3>
+            <a href="https://itunes.apple.com/us/app/%E8%8F%9C%E5%AC%B7%E5%AC%B7%E5%8A%A9%E6%89%8B/id1249158026?l=zh&ls=1&mt=8">IOS版下载</a>
+            <a href="http://android.myapp.com/myapp/detail.htm?apkName=com.caimomo.momoassist&ADTAG=mobile">安卓版下载</a>
+        </div>
+        <div class="clear"></div>
+        <div class="container">
+            <div class="section1">
+                <h2>支持多种业态</h2>
+                <p class="desc">灵活有弹性的产品设计，针对不同的类型餐厅，</p>
+                <p>提供更贴近需求的解决方案</p>
+                <ul>
+                    <li><img src="images/kafei.png" />
+                        <p>咖啡厅</p>
+                    </li>
+                    <li class="mright"><img src="images/xican.png" />
+                        <p>西餐厅</p>
+                    </li>
+                    <li><img src="images/kuaishi.png" />
+                        <p>快食速品</p>
+                    </li>
+                    <li class="mright"><img src="images/yinpin.png" />
+                        <p>饮品店</p>
+                    </li>
+                    <li><img src="images/chacan.png" />
+                        <p>茶餐厅</p>
+                    </li>
+                    <li class="mright"><img src="images/zhongcan.png" />
+                        <p>中餐厅</p>
+                    </li>
+                </ul>
+
+                <div class="clear"></div>
+            </div>
+            <div class="section2">
+                <h2>核心产品及服务</h2>
+                <p class="desc">3+3+3云餐厅解决方案</p>
+                <ul>
+                    <li class="green">微信自媒体、会员管理系统、移动餐厅</li>
+                    <li class="orange">软件工具、会员体系和营销方案、运营执行</li>
+                    <li class="blue">理产品、调价格、定体系、<br>导流吸粉、数据支撑、深度营销</li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="section3">
+                <h2>产品工具箱</h2>
+                <p class="desc">
+                    各种功能全面、稳定、安全、满足你多方面的需求<br> 更能解决您的实际需要的问题
+                </p>
+                <ul>
+                    <li><img src="images/yuding.png" />
+                        <p>预定管理</p>
+                    </li>
+                    <li><img src="images/diancai.png" />
+                        <p>点菜系统</p>
+                    </li>
+                    <li class="mright"><img src="images/shouyin.png" />
+                        <p>前台收银</p>
+                    </li>
+                    <li><img src="images/dayin.png" />
+                        <p>厨房打印</p>
+                    </li>
+                    <li><img src="images/huiyuan.png" />
+                        <p>会员管理</p>
+                    </li>
+                    <li class="mright"><img src="images/kuchun.png" />
+                        <p>库存管理</p>
+                    </li>
+                    <li><img src="images/baobiao.png" />
+                        <p>报表分析</p>
+                    </li>
+                    <li><img src="images/shuju.png" />
+                        <p>数据维护</p>
+                    </li>
+                    <li class="mright"><img src="images/yidong.png" />
+                        <p>移动报表</p>
+                    </li>
+                    <li><img src="images/waimai.png" />
+                        <p>外卖中心</p>
+                    </li>
+                    <li><img src="images/weixing.png" />
+                        <p>微信自媒体</p>
+                    </li>
+                    <li class="mright"><img src="images/gongying.png" />
+                        <p>供应链管理</p>
+                    </li>
+                    <li><img src="images/canting.png" />
+                        <p>移动餐厅</p>
+                    </li>
+                    <li><img src="images/chengben.png" />
+                        <p>成本管理</p>
+                    </li>
+                    <li class="mright"><img src="images/liansuo.png" />
+                        <p>连锁总部</p>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+
+        </div>
+        <!-- 我们的优势 -->
+        <div class="womendeyoushi">
+            <div class="wmdystop">我们的优势</div>
+            <ul>
+                <li>
+                    <h3>完备的自媒体 会员运营体系</h3>
+                    <p>通过3+3+3云餐厅解决方案，帮助餐厅培养忠实客户;</p>
+                </li>
+                <li>
+                    <h3>独到的成本管理系统</h3>
+                    <p>帮助餐厅减员增效，提升毛利3-5个百分点;</p>
+                </li>
+                <li>
+                    <h3>全新的H5技术</h3>
+                    <p>支持各种设备，链接线上线下各种支付方式;</p>
+                </li>
+                <li>
+                    <h3>15年餐饮软件开发运营经验</h3>
+                    <p>全新的UI、UE设计，更悦目的界面呈现，更便捷的体验;</p>
+                </li>
+                <li>
+                    <h3>产品整合架构设计</h3>
+                    <p>基于SaaS云服务的产品整合架构设计，部署更简单;</p>
+                </li>
+                <li>
+                    <h3>支持全流程移动信息化</h3>
+                    <p>方便、快捷、易操作，即使在外地，即可掌握餐厅营业情况;</p>
+                </li>
+            </ul>
+        </div>
+        <!-- 我们的优势 -->
+        <!-- 产品架构 -->
+        <div class="chanpinjiagou">
+            <div class="cpjgtop">产品架构</div>
+            <ul>
+                <li>
+                    <div class="cpjgspan">1.服务层</div>
+                    <div class="cpjgspan1">
+                        <div class="cpjgspan1-1">微信(会员) 营销运营，供应链金融;</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cpjgspan">2.业务层</div>
+                    <div class="cpjgspan2">
+                        <div class="cpjgspan2-1">餐饮门店、总部管理系统;</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cpjgspan">3.基础层</div>
+                    <div class="cpjgspan3">
+                        <div class="cpjgspan3-1">SaaS云、自媒体、城市生活(么么的券)服务平台;</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- 产品架构 -->
+        <!-- 大家都在用 -->
+        <div class="dajiadouzaiyong">
+            <div class="djdzytop">大家都在用</div>
+            <div class="swiper-container" style="height: 210px; width: 95%; margin-top: 5px;">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href='#'><img src="images/img1.png" width='98%' height='180px' /></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href='#'><img src="images/img2.png" width='98%' height='180px' /></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href='#'><img src="images/img3.png" width='98%' height='180px' /></a>
+                    </div>
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+            <script src="js/swiper.min.js"></script>
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                    pagination: '.swiper-pagination',
+                    paginationClickable: true
+                });
+            </script>
+
+        </div>
+        <!-- 大家都在用 -->
+        <!-- 贴心的服务 -->
+        <div class="tiexindefuwu">
+            <div class="txdfwtop">贴心的服务</div>
+            <div class="txdfwcenter">不仅仅是方便，更是后期更新提供的专业服务</div>
+            <ul>
+                <li><span class="txdfwy"><img src="images/shangmen.png" /></span>
+                    <p class="txdfwz">上门安装</p>
+                </li>
+                <li><span class="txdfwy"><img src="images/hour.png" /> </span>
+                    <p class="txdfwz">全天候 </p>
+                </li>
+                <li><span class="txdfwy"><img src="images/yingjian.png" /> </span>
+                    <p class="txdfwz">软件支持 </p>
+                </li>
+                <li><span class="txdfwy"><img src="images/xiangying.png" /> </span>
+                    <p class="txdfwz">响应快 </p>
+                </li>
+
+            </ul>
+            <div class="clear"></div>
+        </div>
+
+        <!-- 贴心的服务 -->
+        <!-- 底部 -->
+        <!-- <div class="footer">
+            <div class="footer_nav">
+                <a href="index.html" target="_self">网站首页</a>
+                <a href="product.html" target="_self">产品中心</a>
+                <a href="partners.html" target="_self">合作伙伴</a>
+                <a href="aboutus.html" target="_self" style="border:0px;">关于我们</a>
+            </div>
+            <div class="footerbq"><a id="beian" target="_blank" href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action;jsessionid=JNGvTjQJP3">苏ICP备18001047号</a></div>
+        </div> -->
+        <!-- 底部 -->
+    </div>
+
+</body>
+
+
+</html>
