@@ -12,6 +12,7 @@
     <meta name="format-detection" content="telephone=no">
     <title>菜么么餐饮SAAS系统</title>
     <link rel="stylesheet" type="text/css" href="css/webstyle.css" />
+<link rel="stylesheet" href="../../../assets/css/shangqiao.css">
     <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
     <link href="css/swiper.min.css" rel="stylesheet" />
     <script type="text/javascript">
@@ -57,6 +58,7 @@
 </head>
 
 <body>
+
     <div id="wrap">
         <!-- 弹出层 -->
         <!--         <div class="tanchuceng">
@@ -101,11 +103,11 @@
             </div>
 
         </div>
-        <div class="downLoad">
+        <!-- <div class="downLoad">
             <h3>么么助手下载</h3>
             <a href="https://itunes.apple.com/us/app/%E8%8F%9C%E5%AC%B7%E5%AC%B7%E5%8A%A9%E6%89%8B/id1249158026?l=zh&ls=1&mt=8">IOS版下载</a>
             <a href="http://android.myapp.com/myapp/detail.htm?apkName=com.caimomo.momoassist&ADTAG=mobile">安卓版下载</a>
-        </div>
+        </div> -->
         <div class="clear"></div>
         <div class="container">
             <div class="section1">
@@ -309,7 +311,37 @@
             </ul>
             <div class="clear"></div>
         </div>
+ <!--留言板-->
+ <div class="guanggao-dbbox">
+    <div class="nb-nodeboard-top">
+        <span class="fl">请您留言</span>
+        <span class="fr" id="nb-close"><img src="../../../assets/img/nodeMax.png" alt=""></span>
+        <span class="fr" id="nb-gb"><img src="../../../assets/img/nodeMax.png" alt=""></span>
+        <span class="fr" id="nb-show"><img src="../../../assets/img/nodeMin.png" alt=""></span>
+    </div>
+    <div class="nb-nodeboard-text">
+        <p class="nb-nodeboard-company">百万机遇，等您激发</p>
+        <p class="nb-nodeboard-link">立即咨询</p>
+    </div>
+    <form id="nb_nodeboard_form" autocomplete="off" class="nb-board-form" action="" method="post">
+        <div class="nb-nodeboard-content">
+            <textarea id="nb-nodeboard-set-content-js" name="square" placeholder="请在此输入留言内容，我们会尽快与您联系。(必填)"></textarea>
+            <p class="nb-nodeboard-tips" id="nb-nodeboard-tips-js"></p>
+        </div>
 
+        <div class="nb-nodeboard-inputbox" id="nb-nodeboard-name">
+            <span class="nb-nodeboard-icon nodeName"></span>
+            <input id="nb_nodeboard_set_name" data-write="0" name="name" maxlength="10" type="text" placeholder="姓名">
+        </div>
+
+        <div class="nb-nodeboard-inputbox" id="nb_nodeboard_phone">
+            <span class="nb-nodeboard-icon nodePhone"></span>
+            <input id="nb_nodeboard_set_phone" name="tel" maxlength="11" class="nb-nodeboard-param" type="text" placeholder="手机号(必填)">
+        </div>
+        <p class="nb-nodeboardphone-tips" id="nb-nodeboardphone-tips-js"></p>
+        <div id="nb_nodeboard_send" needverifycode="1" class="nb-nodeboard-send-btn">发 送</div>
+    </form>
+</div>
         <!-- 贴心的服务 -->
         <!-- 底部 -->
         <!-- <div class="footer">
@@ -323,7 +355,7 @@
         </div> -->
         <!-- 底部 -->
     </div>
-
+<script src="../../../assets/js/shangqiao.js"></script>
 </body>
 
 
