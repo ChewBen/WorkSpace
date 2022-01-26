@@ -587,3 +587,47 @@
     font-size: 0.12rem;
     margin-top: 0
 }
+
+footer .link {
+    display: block;
+    background-color: #ff793d;
+    width: 6.5rem;
+    height: 1rem;
+    margin: 0 auto;
+    color: #fff;
+    font-size: .3rem;
+    letter-spacing: .03rem;
+    text-align: center;
+    line-height: 1rem;
+    border-radius: .5rem;
+}
+
+footer .link-icon {
+    display: inline-block;
+    width: .4rem;
+    height: .4rem;
+    background-image: url("../image/icon/call-icon.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    vertical-align: middle;
+    position: relative;
+    top: -.04rem;
+}
+
+/* 按钮触摸变色 */
+
+.btn-active:active {
+    background-color: #ff793d;
+    color: #fff;
+    -webkit-tap-highlight-color: #ff793d;
+}
+
+footer {
+    height: 1rem;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: .3rem;
+    z-index: 99;
+}
