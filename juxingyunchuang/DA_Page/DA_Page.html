@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html class="ie ie6" lang="en">
+<html class="ie ie7" lang="en">
+<html class="ie ie8" lang="en">
+<html class="ie9" lang="en">
+<html lang="en">
+
+<head>
+    <title>电票档案管理系统</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/files.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="../assets/css/shangqiao.css">
+
+    <style type="text/css">
+        html {
+            overflow: inherit;
+            height: 100%;
+        }
+
+        #header .navbar {
+            padding: 20px 0;
+            background-color: #fff;
+            box-shadow: 0 0 3px #e0d5d5;
+        }
+
+        #header .nav>li>a {
+            color: #000;
+            font-size: 16px;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+        #header .navbar.affix {
+            background-color: #fff;
+        }
+
+        #header .navbar.affix .nav>li>a:hover,
+        #header .navbar.affix .nav>li.active>a {
+            color: #000;
+            font-size: 16px;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+        #header .header-content .header-txt {
+            color: #FFF;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: .5px;
+            min-height: 262px;
+            padding-top: 130px;
+        }
+
+        #header .header-bg {
+            bottom: -90px;
+        }
+
+        #header .header-content {
+            padding-top: 0;
+        }
+
+        #header .header-content .header-txt h1 {
+            font-family: "思源黑体 CN light";
+            font-size: 47px;
+            letter-spacing: 3px;
+        }
+
+        #header .header-content {
+            height: 720px;
+            padding: 0;
+        }
+
+        #header .header-content .header-txt {
+            padding-top: 280px;
+            min-height: 0;
+        }
+
+        @media (max-width: 767px) {
+            #header .header-bg {
+                background: center top / cover no-repeat;
+            }
+            #header .header-content .header-btn .btn-custom {
+                float: none !important;
+                line-height: 20px;
+                margin: 10px 15px;
+            }
+            #example-navbar-collapse {
+                position: fixed;
+                top: 50px;
+                left: 0;
+                z-index: 999;
+                background-color: rgb(255, 255, 255);
+                width: 100%;
+                margin-left: 0 !important;
+            }
+            #header .nav {
+                overflow: hidden;
+                float: left !important;
+                height: auto !important;
+            }
+            .section-title_one {
+                padding-top: 56px;
+            }
+            .function_right {
+                margin-bottom: 6%;
+            }
+            .section-title {
+                margin: 10% 0 10% 0;
+            }
+            .section-title_three {
+                padding-top: 54px;
+            }
+            .section-title_two {
+                padding-top: 36px;
+            }
+            .cbp_tmlabel h2 {
+                font-size: 0.9rem;
+                line-height: 30px;
+            }
+            .main-title {
+                font-size: 23px;
+            }
+            .news_title {
+                font-size: 14px;
+                line-height: 20px;
+            }
+            .solution_one {
+                height: auto;
+            }
+            .transverse {
+                display: none;
+            }
+            #navigation_mobile {
+                display: none;
+            }
+            #header .header-bg {
+                bottom: 0px;
+            }
+            #header .header-bg {
+                background-image: url("img/files/bg_iphone.jpeg") !important;
+            }
+            #header .header-content .header-txt h1 {
+                font-family: "思源黑体 CN light";
+                font-size: 27px;
+                letter-spacing: 3px;
+            }
+            #header .header-content .header-txt {
+                padding-top: 100px;
+                min-height: 0;
+            }
+            .container-padding100 {
+                padding-top: 40px !important;
+                padding-bottom: 40px !important;
+            }
+            .container-padding10080 {
+                padding-top: 40px !important;
+                padding-bottom: 10px !important;
+            }
+            .content_title {
+                font-size: 18px;
+            }
+            .post-heading-center {
+                margin-bottom: 20px !important;
+            }
+            #header .header-content .header-btn {
+                padding: 20px 0 0 0;
+            }
+            .text_number {
+                width: 54% !important;
+            }
+            #header .navbar {
+                padding: 0 !important;
+                background-color: #fff;
+            }
+            .post-heading-left h2 {
+                font-size: 26px !important;
+                font-family: 微软雅黑;
+                letter-spacing: 3px;
+            }
+            .intro {
+                ;
+                font-size: 14px !important;
+                text-align: justify;
+            }
+            .affa-feature-icon h4 {
+                font-size: 18px !important;
+            }
+            #header .header-content .btn-custom {
+                padding: 10px 15px;
+                font-size: 15px;
+                letter-spacing: 3px;
+                border-radius: 100px;
+                border-radius: 0;
+                background-color: #fff !important;
+                border-color: transparent;
+                color: #191818 !important;
+            }
+            #header .header-content .btn-custom.btn-border {
+                color: #191818 !important;
+            }
+            .in-box-sty {
+                display: inline-block;
+                width: 100% !important;
+            }
+            .title_bottom {
+                font-size: 20px;
+                letter-spacing: 3px;
+                line-height: 30px;
+            }
+        }
+
+        /*手机尺寸banner高度*/
+
+        @media (max-width: 480px) {
+            #header .header-content {
+                height: 580px;
+                padding: 0;
+            }
+        }
+
+        /*PC端banner*/
+
+        #header .header-bg {
+            background-image: url("img/files/banner.png");
+        }
+
+        #header .header-bg {
+            background-color: transparent;
+        }
+
+        .box {
+            background-color: #fff;
+            border: 1px solid #f6f6f6;
+        }
+
+        .affa-feature-icon {
+            text-align: center;
+            margin-bottom: 40px;
+            margin-top: 40px;
+        }
+
+        .header-btn .btn-custom {
+            background-color: #fff;
+            color: #000 !important;
+        }
+
+        .content td {
+            padding: 30px 0;
+        }
+
+        .table-condensed>tbody>tr>td {
+            padding: 20px;
+            border-top: 1px solid #e3eafb;
+        }
+
+        .ellipsis {
+            font-size: 15px;
+        }
+
+        tr:nth-of-type(even) {
+            background: #e3eafb;
+        }
+
+        .affa-feature-icon h4 {
+            margin: 20px 0 0 0;
+            font-family: 微软雅黑;
+            letter-spacing: 3px;
+            font-size: 22px;
+            font-weight: normal;
+        }
+
+        .footer-contact-area {
+            background-color: #000;
+        }
+
+        .section-padding-100-0 {
+            padding-top: 30px;
+            padding-bottom: 0;
+        }
+
+        .table_title {
+            color: #fff;
+        }
+
+        ul {
+            padding-inline-start: 0;
+        }
+
+        .text_number {
+            width: 66%;
+        }
+
+        .intro {
+            line-height: 30px;
+            letter-spacing: 2px;
+            font-size: 16px;
+            text-align: justify;
+            padding: 30px;
+            font-family: "苹方 常规";
+            /*background-color: #fafafa;*/
+            color: #000;
+        }
+
+        .post-heading-left h2 {
+            font-size: 36px;
+            font-family: 微软雅黑;
+            letter-spacing: 3px;
+        }
+
+        .header-btn .btn-custom {
+            padding: 19px 42px;
+            font-size: 20px;
+            letter-spacing: 4px;
+            /*border-radius: 0;*/
+            background-color: #fff;
+            color: #191818 !important;
+            border-radius: 40px;
+        }
+
+        .post-heading-left h2 {
+            font-size: 36px;
+            font-family: 微软雅黑;
+            letter-spacing: 3px;
+        }
+
+        .fz12 {
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .fz16 {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .soft {
+            padding-bottom: 40px !important;
+        }
+
+        .container-padding10080 {
+            padding-top: 60px !important;
+        }
+
+        .container .post-heading-center {
+            margin-bottom: 16px !important;
+        }
+
+        #header .navbar-brand img {
+            height: 46px;
+        }
+
+        #header .nav>li {
+            padding: 15px 17px 28px;
+        }
+
+        #header .navbar.affix .nav>li>a {
+            color: #000;
+        }
+
+        @media (min-width: 1200px) {
+            .container {
+                width: 1200px;
+            }
+            .function_iphone {
+                display: none;
+            }
+            .container-padding100 {
+                padding-top: 70px;
+                padding-bottom: 120px;
+            }
+        }
+
+        #header .nav {
+            overflow: inherit !important;
+            margin-left: 5%;
+            float: left;
+        }
+
+        .ii {
+            background: #ff5400;
+            border-radius: 20px;
+            width: 46px;
+            height: 18px;
+            top: -24px;
+            font-size: 12px;
+            right: -37px;
+            position: absolute;
+            text-align: center;
+            color: #FFF;
+            z-index: 99999;
+        }
+
+        p {
+            margin-bottom: 0;
+            line-height: 28px;
+        }
+
+        video {
+            width: 80%;
+            height: auto;
+        }
+
+        .cbp_tmlabel h2 a {
+            color: #000;
+        }
+
+        .cbp_tmlabel h2 a:hover {
+            color: #2e6da4;
+        }
+
+        #header .header-bg {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 160px;
+            left: 0px;
+            z-index: -2;
+            /*background: center top / cover no-repeat;*/
+        }
+
+        #header .header-content .header-btn .btn-custom {
+            float: left;
+            line-height: 20px;
+            margin: 10px 15px;
+        }
+
+        .container-wrap .col-txt {
+            min-height: 420px;
+            padding-top: 100px;
+        }
+
+        #header .header-bg-overlay {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            background: no-repeat top center;
+            background-size: cover;
+            z-index: -1;
+            -webkit-transition: background .3s ease;
+            transition: background .3s ease;
+        }
+
+        .slicknav_icon-bar {
+            background-color: #000 !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 导航 -->
+    <header id="header">
+        <div class="top"></div>
+        <div class="header-content">
+            <div class="container">
+                <div class="row header-row">
+                    <div class="col-sm-8 col-md-9 col-lg-8">
+                        <div class="header-txt">
+                            <img src="img/files/bg_left.png">
+                        </div>
+                        <!-- <div class="header-btn text-center">
+                            <a href="https://jsyqyf.cn/addons/ytao_universal_reserve/core/web/index.php?r=/mobile/form/index&acid=4&form_id=7" class="btn-custom btn-border btn-icon smooth-scroll">立即试用</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="header-bg">
+            <div class="header-bg-overlay"></div>
+        </div>
+    </header>
+    <!--时间轴-->
+    <div class="container-wrap container-padding100 vertical" style="background-color: #f2f7ff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <!--                <p class="main-title">全面发票电子化时代即将来临</p>-->
+                    <img src="img/files/title_one.png" />
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <ul class="cbp_tmtimeline">
+                <li>
+                    <time class="cbp_tmtime" datetime=""><span>2021.02</span></time>
+                    <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                    <div class="cbp_tmlabel">
+                        <h2><a href="http://www.chinatax.gov.cn/chinatax/n810341/n810760/c5161389/content.html" target="_blank">《三部门有关司局就“专票电子化”管理与操作有关问题答问》</a></h2>
+                        <p>“与电子发票相关的记账凭证、报销凭证未实现电子化，电子发票以电子形式移交会计档案管理人员保存，并建立电子会计档案台账或者目录。”</p>
+
+                    </div>
+                </li>
+                <li>
+                    <time class="cbp_tmtime" datetime=""><span>2021.01</span></time>
+                    <div class="cbp_tmicon cbp_tmicon-screen"></div>
+                    <div class="cbp_tmlabel">
+                        <h2><a href="http://www.chinatax.gov.cn/chinatax/n359/c5161674/content.html" target="_blank">《国家档案局办公室等四部门关于进一步扩大增值税电子发票电子化报销、入账、归档试点工作的通知》</a></h2>
+                        <p> “科学设计增值税电子发票电子化归集、报销、入账、归档方案。”</p>
+                    </div>
+                </li>
+                <li>
+                    <time class="cbp_tmtime" datetime=""><span>2020.09</span></time>
+                    <div class="cbp_tmicon cbp_tmicon-mail"></div>
+                    <div class="cbp_tmlabel">
+                        <h2><a href="http://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5157079/content.html" target="_blank">《税务总局等十三部门关于推进纳税缴费便利化改革优化税收营商环境若干措施的通知》</a></h2>
+                        <p>“财政、档案部门积极推进会计凭证电子化入账、报销、归档工作”</p>
+                    </div>
+                </li>
+                <li>
+                    <time class="cbp_tmtime" datetime=""><span>2020.06</span></time>
+                    <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                    <div class="cbp_tmlabel">
+                        <h2><a href="http://kjs.mof.gov.cn/zhengcefabu/202003/t20200331_3490938.html" target="_blank">财会 （2020）6号 《关于规范电子会计凭证报销入账归档的通知》</a></h2>
+                        <p>“单位以电子会计凭证的纸质打印件作为报销入账归档依据的，必须同时保存打印该纸质件的电子会计凭证。”</p>
+                    </div>
+                </li>
+                <li>
+                    <time class="cbp_tmtime" datetime=""><span>2020.04</span></time>
+                    <div class="cbp_tmicon cbp_tmicon-earth"></div>
+                    <div class="cbp_tmlabel">
+                        <h2><a href="http://kjs.mof.gov.cn/zhengcejiedu/202004/t20200402_3492561.html" target="_blank">《关于规范电子会计凭证报销入账归档的通知》答记者问</a></h2>
+                        <p>“逐步暴露出基层单位在应用电子会计凭证中存在的一些不规范问题，其中直接并仅将电子会计凭证（主要是电子发票）的纸质打印件作为单位报销入账归档的唯一凭证的现象大量存在。”</p>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <!-- 产品介绍 -->
+    <div class="container-wrap container-padding100">
+        <div class="container">
+            <div class="items items-steps row">
+                <div class="col-md-12 text-center">
+                    <!--                <p class="main-title">产品介绍</p>-->
+                    <img src="img/files/title_two.png" />.intro
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <img src="img/files/feature-1.png" />
+                </div>
+                <div class="col-md-5 col-lg-5 col-txt text-center-sm text-center-xs margin-bottom40-sm margin-bottom40-xs">
+                    <p class="intro">「电票档案管理系统」标准版根据国家有关法律和政策，提供电子会计档案（电子发票）的入帐、识别、读取等操作，自动生成符合规定的存储目录，自动生成台帐，生成财务凭证数据，并提供报销查重以及销项电票生成、交付、排版、打印等功能，帮助企业提升电子发票管理水平，降低财务风险。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--视频介绍-->
+    <div class="container-wrap container-padding100" style="background-color: #f2f7ff">
+        <div class="container">
+            <div class=" items-steps row">
+                <div class="col-md-12 text-center">
+                    <!--                <p class="main-title">还不够了解？</p>-->
+                    <img src="img/files/title_three.png" />
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-12">
+                    <video controls="controls" poster="img/files/video_1.png" width="100%">
+                    <source src="img/files/video.mp4" type="video/mp4">
+                </video>
+                </div>
+            </div>
+            <div class="videos"></div>
+        </div>
+    </div>
+    </div>
+    <!--功能介绍 PC端-->
+    <div class="container-wrap container-padding100 function_pc">
+        <div class="container">
+            <div class=" items-steps row">
+                <div class="col-md-12 text-center">
+                    <!--                <p class="main-title">六大功能</p>-->
+                    <img src="img/files/title_four.png" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9 col-12">
+                    <div class="mr-lg-5">
+                        <img src="img/files/111.png">
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <ul class="section-title_one mr-lg-5">
+                        <li class="function_right">
+                            <p class="content_title">兼容电子专票</p>
+                            <span class="txt_content">批量导入OFD、PDF格式电子发票</span>
+                        </li>
+                        <li class="function_right">
+                            <p class="content_title">批量打印</p>
+                            <span class="txt_content">支持A4纸、凭证纸自动排版并连续打印</span>
+                        </li>
+                        <li class="function_right">
+                            <p class="content_title">台账管理</p>
+                            <span class="txt_content">自动生成发票台账，直接导出凭证数据</span>
+                        </li>
+                        <li>
+                            <p class="content_title">发票解析</p>
+                            <span class="txt_content">导入发票，自动解析发票版式文件信息</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-wrap container-padding100 function_pc" style="background-color: #f2f7ff">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-12">
+                    <ul class="section-title_two mr-lg-5">
+                        <li class="function_right">
+                            <p class="content_title">档案管理</p>
+                            <span>按《会计档案管理办法》自动建立电子发票档案目录</span>
+                        </li>
+                        <li class="function_right">
+                            <p class="content_title">凭证号管理</p>
+                            <span class="txt_content">快速编辑和关联凭证号，建立索引</span>
+                        </li>
+                        <li>
+                            <p class="content_title">版式文件管理</p>
+                            <span class="txt_content">查询、拷贝备份电子发票版式文件</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-9 col-12">
+                    <div class="mr-lg-5">
+                        <img src="img/files/iphone_3.png">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-wrap container-padding100 function_pc">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-12">
+                    <div class="mr-lg-5">
+                        <img src="img/files/iphone_4.png">
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <ul class="section-title_three mr-lg-5">
+                        <li class="function_right">
+                            <p class="content_title">发票查重</p>
+                            <span class="txt_content">快速识别电子发票是否重复报销</span>
+                        </li>
+                        <li class="function_right">
+                            <p class="content_title">发票查验</p>
+                            <span class="txt_content">查询发票真伪，获取发票明细</span>
+                        </li>
+                        <li>
+                            <p class="content_title">报销标记</p>
+                            <span class="txt_content">报销查重同时，自动关联和标记版式文件</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--解决了什么问题-->
+    <div class="container-wrap container-padding100" style="background-color: #f2f7ff">
+        <div class="container">
+            <div class=" items-steps row">
+                <div class="col-md-12 text-center">
+                    <img src="img/files/title_five.png" />
+                </div>
+            </div>
+            <ul class="row">
+                <li class="col-md-4 solution">
+                    <div class="solution_one">
+                        <img src="img/files/solution1.jpg" />
+                        <div class="advance">发票归集</div>
+                        <p>以前靠人工一张张归集，丢了还需要登录平台下载自动归集历史销项电票，丢失、误删、换电脑，都不影响。</p>
+                    </div>
+                </li>
+                <li class="col-md-4 solution">
+                    <div class="solution_one">
+                        <img src="img/files/solution2.jpg" />
+                        <div class="advance">版式文件管理</div>
+                        <p>进项电票版式文件以文件夹方式批量导入系统，自动储存在不同年份、月份文件夹内，可根据各要素查找版式文件。</p>
+                    </div>
+                </li>
+                <li class="col-md-4 solution">
+                    <div class="solution_one">
+                        <img src="img/files/solution3.jpg" />
+                        <div class="advance">发票打印</div>
+                        <p>自动排版A4纸（两张发票）、凭证纸批量打印，解决企业批量（下载）打印电子发票问题。</p>
+                    </div>
+                </li>
+                <li class="col-md-4 solution">
+                    <div class="solution_one">
+                        <img src="img/files/solution4.jpg" />
+                        <div class="advance">凭证关联</div>
+                        <p>发票数据、版式文件、纸质凭证三者关联索引，快速查找</p>
+                    </div>
+                </li>
+                <li class="col-md-4 solution">
+                    <div class="solution_one">
+                        <img src="img/files/solution5.jpg" />
+                        <div class="advance">报销查重、查验</div>
+                        <p>扫码实现报销查重，自动记录，自动提示纸质打印件是否重复报销； 一键识别发票真伪</p>
+                    </div>
+                </li>
+                <li class="col-md-4 solution">
+                    <div class="solution_one">
+                        <img src="img/files/solution6.jpg" />
+                        <div class="advance">台账数据</div>
+                        <p>自动生成进销项台账数据，导出可用于财务软件电子凭证的原始数据，实现出纳与会计协同、共享数据、降低风险提高效率。</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+     <!--留言板-->
+      <div class="float-button"  style="position: fixed; 
+        height: 50px;
+        width: 50px;
+        bottom: 50px;
+        border-radius: 50%;
+        right: 50px;
+        background: #fff;"
+        > 
+            <a href="http://m.jsyqyf.cn/app/index.php?i=20&c=entry&eid=255"><img src="../../../assets/img/wx.png" alt=""></a>
+        </div>
+    <!--底部-->
+    <div class="footerpage"></div>
+    <!-- JavaScripts -->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.placeholder.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="js/jquery.imgpreload.min.js"></script>
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-media.js"></script>
+    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+    <script src="../assets/js/shangqiao.js"></script>
+    <!--<script type="text/javascript" src="js/parallax.min.js"></script>-->
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+        $(".saftware_function li").on('click', function() {
+            $(".saftware_function li").removeClass("active_li");
+            $(this).addClass("active_li");
+            var index = $(this).index();
+            $(".software_right li").eq(index).addClass("active_div").siblings().removeClass("active_div");
+        });
+        //底部
+        $(function() {
+            $(".footerpage").load("footer.html");
+        });
+        $(function() {
+            $(".top").load("header.html");
+        });
+    </script>
+</body>
+
+</html>

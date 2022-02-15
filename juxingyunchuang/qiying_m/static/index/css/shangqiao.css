@@ -1,0 +1,39 @@
+@charset "utf-8";
+html{margin:0;padding:0;border:0;}
+body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,q,dl,dt,dd,ol,ul,li,fieldset,form,legend,caption,tbody,tfoot,thead,article,aside,dialog,figure,footer,header,nav,section{list-style:none;margin:0px;padding:0px;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,dialog,footer,header,menu,nav,section{display:block}
+.fl{float: left;}
+.fr{float: right;}
+.guanggao-dbbox{width: 240px; min-height:320px; padding-bottom: 10px; background-color:#ededed; position: fixed; z-index: 1; bottom:0px;left:0px; border-radius:5px 5px 0 0; overflow: hidden;}
+.changedw{left: 50%; bottom:50% !important; z-index: 99999; margin-left:-120px; margin-bottom:-160px;}
+#nb-show,#nb-gb{display: none;}
+.nb-nodeboard-top{background: url("../images/boardTop5.png") no-repeat; height: 36px; line-height: 36px; color: #fff;  font-size: 15px; }
+.nb-nodeboard-top .fl{margin-left: 8px;}
+.nb-nodeboard-top .fr img{vertical-align:middle;}
+.nb-nodeboard-text{ zoom: 1; padding: 12px 0; line-height:1.5; border-bottom: 1px solid #d5d5d5; font-size:15px;}
+.nb-nodeboard-link{color: #999; font-size: 12px;}
+.nb-nodeboard-text p{padding-left:10px;}
+#nb_nodeboard_form{width: 94%; margin: 0 auto; display:block;}
+#nb-nodeboard-set-content-js{ width:96%; height:79px;margin:10px auto 0px;padding:4px; resize: none;overflow: hidden;border: 1px solid #d5d5d5;background-color: #fff;text-align: left; font-size: 12px;}
+.nb-nodeboard-tips,.nb-nodeboardphone-tips{display:none; color: #f00; font-size: 12px; }
+.nb-nodeboard-inputbox{height: 30px; width:100%; line-height: 30px;margin:7px auto 0;border: 1px solid #d5d5d5;position: relative;background-color: #fff; overflow:hidden;}
+.nb-nodeboard-inputbox input{width:195px; border: none; font-size: 12px;}
+.nb-nodeboard-icon { width: 24px;height: 28px;display: inline-block;text-align: center; background-color: #fff; vertical-align: top; border-right: 1px solid #fff; }
+.nodeName{background: #fff url(../images/user.png) no-repeat 9px center;}
+.nodePhone{background: #fff url(../images/nodephone.png) no-repeat 9px center;}
+.nb-nodeboard-send-btn{ height: 35px;width:50%; line-height: 35px;text-align: center;border-radius: 2px;font-size: 14px;color: #fff;cursor: pointer;background-color: #edb518; margin-top:8px;}
+.nb-nodeboard-send-btn:hover{background-color: #F49C11;}
+/*商务通跳窗*/
+.nb-dingwei{display:none;}
+.nb-dingwei .container{z-index:9999;position:fixed;top:50%;left:50%; margin-left:-200px; margin-top:-81px;  width: 400px; height: 162px; background: url("../images/inviteColorBack0.png"); }
+.nb-fd-close{position: absolute; right:10px; bottom:105px;transition: All 0.4s ease-in-out; -webkit-transition: All 0.4s ease-in-out; -moz-transition: All 0.4s ease-in-out; -o-transition: All 0.4s ease-in-out; }
+.nb-fd-close:hover{cursor: pointer;  transform: rotate(180deg); -webkit-transform: rotate(180deg);-moz-transform: rotate(180deg); -o-transform: rotate(180deg);-ms-transform: rotate(180deg);}
+.nb-fd-content{position:absolute; bottom: 0; right:0; color: #fff; width:222px; height:108px;}
+.nb-fd-content p{color: #fff; font-size: 16px;}
+.anniubox{margin-top:15px;}
+.anniubox span{border:#fff solid 1px; color: #fff; height: 34px; line-height: 34px; width: 80px; text-align: center; display: inline-block; border-radius: 5px;}
+.anniubox .nb-dk{margin-left: 10px; background-color: #fff; color: #329fd7;}
+/*在线咨询*/
+.nb-online-box{position: fixed; right:0px; bottom:35%; z-index: 999999; background-color: #00AEF3; width: 144px;border-radius:6px;  text-align: center; padding: 8px 0;}
+.nb-online-box h2{ font-size:20px; color: #fff; text-shadow: 1px 1px 1px #666;}
+.nb-online-box p{color: #fff; font-size: 12px; text-shadow: 1px 1px 1px #666;}

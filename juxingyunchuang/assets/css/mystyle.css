@@ -1,0 +1,1055 @@
+li {
+    list-style: none;
+}
+
+input,
+button,
+select {
+    outline: 0;
+    outline: none;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+::-webkit-input-placeholder {
+    color: #999;
+    font-weight: 400;
+}
+
+/* Firefox 4-18 */
+
+:-moz-placeholder {
+    color: #999;
+    font-weight: 400;
+}
+
+/* Firefox 19-50 */
+
+::-moz-placeholder {
+    color: #999;
+    font-weight: 400;
+}
+
+/* - Internet Explorer 10–11
+   - Internet Explorer Mobile 10-11 */
+
+:-ms-input-placeholder {
+    color: #999 !important;
+    font-weight: 400 !important;
+}
+
+/* Edge (also supports ::-webkit-input-placeholder) */
+
+::-ms-input-placeholder {
+    color: #999;
+    font-weight: 400;
+}
+
+/* CSS Working Draft */
+
+::placeholder {
+    color: #999;
+    font-weight: 400;
+}
+
+#header .navbar {
+    position: inherit;
+}
+
+.animation {
+    visibility: visible;
+}
+
+a {
+    color: #707070;
+}
+
+#header .navbar {
+    background-color: #fff;
+    box-shadow: 0 0 3px #e0d5d5;
+    margin: 0;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+#header .nav>li>a {
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding: 10px 5px 8px;
+}
+
+#header .navbar.affix {
+    background-color: #fff;
+}
+
+#header .navbar.affix .nav>li>a:hover,
+#header .navbar.affix .nav>li.active>a {
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#header .header-content .header-txt {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: .5px;
+    min-height: 262px;
+    padding-top: 130px;
+}
+
+#header .header-bg {
+    bottom: -90px;
+}
+
+#header .header-content {
+    padding-top: 0;
+}
+
+#header .header-content .header-txt h1 {
+    font-family: "思源黑体 CN light";
+    font-size: 47px;
+    letter-spacing: 3px;
+}
+
+#header .header-content {
+    padding: 0;
+}
+
+#header .header-content .header-txt {
+    padding-top: 280px;
+    min-height: 0;
+}
+
+.navbar-collapse {
+    float: right;
+    padding-top: 5px;
+}
+
+@media (max-width: 767px) {
+    .iphone_number {
+        padding: 16px 0 28px 16px;
+    }
+    .mb-60 {
+        margin-bottom: 0;
+    }
+    #header .nav>li {
+        padding: 15px 15px 28px;
+    }
+    #header .nav {
+        float: left;
+    }
+    .img-responsive,
+    .thumbnail>img,
+    .thumbnail a>img,
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    #example-navbar-collapse {
+        position: fixed;
+        top: 50px;
+        left: 0;
+        z-index: 999;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    #header .nav {
+        overflow: hidden;
+        /*float: left!important;*/
+        height: auto !important;
+    }
+    #navigation_mobile {
+        display: none;
+    }
+    #header .header-bg {
+        bottom: 0px;
+    }
+    /*#header .header-bg{*/
+    /*    background-image: url("images/content/bg/bg_iphone.jpg")!important;*/
+    /*}*/
+    #header .header-content .header-txt h1 {
+        font-family: "思源黑体 CN light";
+        font-size: 27px;
+        letter-spacing: 3px;
+    }
+    #header .header-content .header-txt {
+        padding-top: 40px;
+        min-height: 0;
+    }
+    .container-padding100 {
+        padding-top: 40px !important;
+        padding-bottom: 100px !important;
+    }
+    .container-padding10080 {
+        padding-top: 40px !important;
+        padding-bottom: 10px !important;
+    }
+    .post-heading-center {
+        margin-bottom: 20px !important;
+    }
+    .wow {
+        margin-top: 5%;
+    }
+    #header .header-content .header-btn {
+        padding: 20px 0 0 0;
+    }
+    #header .navbar {
+        padding: 0 !important;
+        background-color: #fff;
+    }
+    .post-heading-left h2 {
+        font-size: 26px !important;
+        font-family: 微软雅黑;
+        letter-spacing: 3px;
+    }
+    .affa-feature-icon h4 {
+        font-size: 18px !important;
+    }
+    #header .header-content .btn-custom {
+        padding: 10px 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+        border-radius: 0;
+        background-color: #f34d2f !important;
+        border-color: transparent;
+        color: #fff !important;
+    }
+    #header .header-content .btn-custom.btn-border {
+        color: #fff !important;
+    }
+    .in-box-sty {
+        display: inline-block;
+        width: 100% !important;
+    }
+    .title_bottom {
+        font-size: 20px;
+        letter-spacing: 3px;
+        line-height: 30px;
+    }
+    .mid {
+        padding-top: 140px !important;
+    }
+}
+
+/*手机尺寸banner高度*/
+
+@media (max-width: 480px) {
+    #header .header-content {
+        height: 580px;
+        padding: 0;
+    }
+    .container-wrap {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+}
+
+/*PC端banner*/
+
+/*#header .header-bg{*/
+
+/*    background-image: url(images/content/landing/bg.jpg);*/
+
+/*}*/
+
+#header .header-bg {
+    background-color: transparent;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #f6f6f6;
+}
+
+.affa-feature-icon {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.container-padding100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.affa-feature-icon h4 {
+    margin: 10px 0 0 0;
+    font-family: 微软雅黑;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.footer-contact-area {
+    background-color: #000;
+}
+
+.section-padding-100-0 {
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+.post-heading-left h2 {
+    font-size: 36px;
+    font-family: 微软雅黑;
+    letter-spacing: 3px;
+}
+
+.post-heading-left h2 {
+    font-size: 36px;
+    font-family: 微软雅黑;
+    letter-spacing: 3px;
+}
+
+.fz12 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.fz16 {
+    text-align: center;
+    font-size: 16px;
+}
+
+.soft {
+    padding-bottom: 40px !important;
+}
+
+.container-padding10080 {
+    padding-top: 60px !important;
+}
+
+.container .post-heading-center {
+    margin-bottom: 16px !important;
+}
+
+.navbar-brand {
+    height: auto;
+}
+
+#header .navbar-brand img {
+    margin-top: -20px;
+    height: 80px;
+}
+
+/*留言板*/
+.nb-nodeboard-err {
+    margin-bottom: 20px;
+    border-color: #E64552;
+}
+
+.header-btn span {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.index_content .header-btn {
+    padding-top: 30px;
+}
+
+.index_content .header-btn .btn-custom {
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    height: 60px;
+    width: 200px;
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 !important;
+    margin: 0;
+}
+
+.header-btn .btn-custom {
+    font-size: 20px;
+    letter-spacing: 4px;
+    border-radius: 0;
+    background-color: #e77817;
+    color: #fff !important;
+}
+
+.index_content .header-btn .btn-custom:hover {
+    text-decoration: none;
+}
+
+.hero__area {
+    padding-top: 90px;
+}
+
+/*index*/
+
+#header .container {
+    height: 90px;
+}
+
+#header .navbar-brand {
+    padding: 28px 0 0 30px;
+}
+
+.index_bg {
+    width: 100%;
+    height: auto;
+}
+
+.index_content {
+    position: absolute;
+    top: 180px;
+    left: 260px;
+}
+
+#header .navbar.affix .nav>li>a {
+    color: #000;
+}
+
+@media (min-width: 1200px) {
+    .img-responsive,
+    .thumbnail>img,
+    .thumbnail a>img,
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+        display: initial;
+        max-width: inherit;
+        height: auto;
+    }
+    #header .header-content .header-btn .btn-custom {
+        float: none;
+        border: 0;
+    }
+    img {
+        width: auto;
+        height: auto;
+        max-width: inherit;
+        vertical-align: middle;
+        border: 0;
+        -ms-interpolation-mode: bicubic;
+    }
+    .iphone_number {
+        padding: 16px 0 28px 300px;
+    }
+    .nav_menu {
+        padding: 15px 20px 0px;
+    }
+}
+
+.table-condensed>tbody>tr>td {
+    padding: 20px;
+    border-top: 1px solid #e3eafb;
+}
+
+.ellipsis {
+    font-size: 15px;
+}
+
+tr:nth-of-type(even) {
+    background: #e3eafb;
+}
+
+.affa-feature-icon h4 {
+    margin: 20px 0 0 0;
+    font-family: 微软雅黑;
+    letter-spacing: 3px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.footer-contact-area {
+    background-color: #000;
+}
+
+.section-padding-100-0 {
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+.table_title {
+    color: #fff;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+.text_number {
+    width: 66%;
+}
+
+.intro {
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-align: center;
+    color: #252B3A;
+    margin-bottom: 40px;
+}
+
+.post-heading-left h2 {
+    font-size: 31px;
+    font-family: 微软雅黑;
+    letter-spacing: 3px;
+    line-height: 52px;
+}
+
+.post-heading-left h2 strong,
+.post-heading-center h2 strong {
+    color: #252B3A;
+}
+
+.post-heading-left h2 {
+    font-size: 31px;
+    font-family: 微软雅黑;
+    letter-spacing: 3px;
+}
+
+.fz12 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.fz16 {
+    text-align: center;
+    font-size: 16px;
+}
+
+.soft {
+    padding-bottom: 40px !important;
+}
+
+.container-padding10080 {
+    padding-top: 60px !important;
+}
+
+.container .post-heading-center {
+    margin-bottom: 0 !important;
+}
+
+/*留言板*/
+
+#newBridge {
+    font-family: Arial, Helvetica, "Microsoft YaHei", sans-serif;
+    position: fixed;
+    z-index: 2147483647;
+}
+
+#newBridge .nb-show {
+    display: block;
+}
+
+#newBridge .nb-nodeboard-left-bottom {
+    left: 20px;
+    bottom: 10px;
+    top: auto;
+    right: auto;
+}
+
+#newBridge .nb-nodeboard-base {
+    /*height: auto;*/
+    width: 240px;
+    border-radius: 8px;
+    z-index: 3;
+    box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.4);
+}
+
+#newBridge .nb-nodeboard-position-base {
+    position: fixed;
+}
+
+#newBridge .nb-nodeboard-base .nb-nodeboard-contain-base {
+    color: #000;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+#newBridge ins {
+    display: block;
+    text-decoration: none;
+}
+
+#newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-nodeboard-top {
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#newBridge .nb-nodeboard-base .nb-nodeboard-top-0 {
+    background-color: #2752f5 !important;
+}
+
+#newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-head-title {
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 12px;
+    line-height: 46px;
+    padding-left: 2px;
+}
+
+.nb-nodeboard-err {
+    margin-bottom: 20px;
+    border-color: #E64552;
+}
+
+.active_menu a {
+    color: #23a5f9 !important;
+    border-bottom: 2px solid #23a5f9;
+}
+
+.banner_title {
+    font-size: 46px;
+    line-height: 50px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #fff;
+    margin: 0;
+}
+
+.banner_text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    padding-top: 15px;
+    margin-bottom: 0 !important;
+}
+
+.header-btn span {
+    font-size: 14px;
+    color: #fff;
+}
+
+.hero__area {
+    padding-top: 90px;
+}
+
+/*index*/
+
+.indexWrap {
+    margin-top: 90px;
+    position: relative;
+}
+
+.index_bg {
+    width: 100%;
+    height: auto;
+}
+
+.index_content {
+    position: absolute;
+    top: 180px;
+    left: 260px;
+}
+
+.container-wrap {
+    padding: 60px 0 0;
+}
+
+.section__title {
+    font-size: 40px;
+    padding: 0 0 30px 0;
+    font-weight: bold;
+    margin: 0;
+}
+
+.title_intro {
+    font-size: 14px;
+    color: #5d6280;
+    line-height: 30px;
+}
+
+.pro_img {
+    display: block;
+    max-width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.home_dec {
+    padding-top: 12px;
+}
+
+.home-solution-item-warp {
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+.show_scenes_block {
+    background: #269bff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #fff;
+    line-height: 22px;
+    text-align: left;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.item {
+    margin-right: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    height: auto;
+    background-color: #f9f9f9;
+    padding-top: 26px;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+.item h3 {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.item h3 a {
+    font-weight: 600;
+}
+
+.item .desc {
+    height: 84px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #555;
+    line-height: 28px;
+    padding: 0 30px;
+}
+
+.item .ima img {
+    width: 100%;
+    display: block;
+}
+
+.yingyong .product__content {
+    height: 220px;
+    padding: 20px;
+}
+
+.yingyong .product__author {
+    font-family: "Be Vietnam", sans-serif;
+    font-weight: normal;
+    color: #55545b;
+    margin-top: 10px;
+    line-height: 26px;
+}
+
+.col-md-12 .case_img {
+    width: 95%;
+}
+
+.chuli_title {
+    font-size: 40px;
+    padding: 0 0 10px 0;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.chuli_num {
+    padding-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+}
+
+.chuli_num span {
+    font-size: 42px;
+    letter-spacing: 5px;
+    padding-right: 20px;
+}
+
+.chuli_num span:last-child {
+    font-size: 22px;
+}
+
+.index_color {
+    width: 100%;
+    position: relative;
+}
+
+.video {
+    object-fit: cover;
+    transform: scale(0.8);
+    position: absolute;
+    top: 0;
+    right: 10%;
+}
+
+.sp_video {
+    width: 90%;
+}
+
+/*list*/
+
+.noneData {
+    width: 100%;
+    color: #333;
+    font-size: 13px;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.listBlock {
+    border: 1px solid #ddd;
+    width: 70%;
+    color: #333;
+    margin: 30px auto 60px;
+}
+
+.rightTitle {
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+.rightTitle p {
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    width: 25%;
+    margin: 0;
+    font-weight: bold;
+}
+
+.myscroll {
+    width: 100%;
+    height: 420px;
+    line-height: 30px;
+    font-size: 13px;
+    overflow: hidden;
+    color: #333;
+}
+
+.myscroll li {
+    height: 40px;
+    line-height: 40px;
+}
+
+.myscroll li p {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.agent_title {
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #333;
+}
+
+.agent_list {
+    width: 460px;
+    margin: 40px auto;
+}
+
+.agent_list li {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 12px;
+    color: #333;
+    padding: 0 20px;
+    margin-bottom: 22px;
+    position: relative;
+}
+
+.agent_val {
+    width: 100%;
+    height: 42px;
+    border: none;
+    background: none;
+}
+
+.agent_select {
+    color: #999;
+}
+
+.opt {
+    color: #333;
+}
+
+.agent_button {
+    display: block;
+    width: 150px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    background: #2752f5;
+    border-radius: 4px;
+    margin: 30px auto 100px;
+    padding: 0;
+    border: none;
+}
+
+.help-block {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: red;
+    display: none;
+}
+
+.indexWrap .btns-api .buttons_custom {
+    margin-right: 20px;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 17px;
+}
+
+#company_li {
+    display: none;
+}
+
+/*footer*/
+
+.footer-contact-area .copy-right-content a {
+    color: #23a5f9;
+}
+
+.footer-contact-area .copy-right-content a:hover {
+    color: #23a5f9;
+}
+
+.copy-right-menu ul {
+    padding-left: 200px;
+}
+
+.copy-right-menu ul li {
+    padding-right: 30px;
+}
+
+@media (max-width: 640px) and (min-width: 320px) {
+    #header .navbar-brand {
+        padding: 12px;
+    }
+    #header .navbar {
+        height: 50px;
+    }
+    #header .container {
+        height: 50px;
+    }
+    #header .navbar-brand img {
+        margin-top: -20px;
+        height: 70px;
+    }
+    .indexWrap {
+        margin-top: 50px;
+    }
+    .index_content {
+        width: 65%;
+        left: 5%;
+        top: 22px;
+    }
+    .index_content .banner_title {
+        font-size: 18px;
+        line-height: 20px;
+        width: 100%;
+    }
+    .chuli_title {
+        font-size: 20px;
+    }
+    .chuli_num {
+        height: 20px;
+        line-height: 20px;
+    }
+    .chuli_num span {
+        font-size: 22px;
+        padding-right: 5px;
+    }
+    .chuli_num span:last-child {
+        font-size: 20px;
+    }
+    .listBlock {
+        width: 90%;
+    }
+    .video {
+        right: 10px;
+        top: 30px;
+        transform: scale(1);
+    }
+    .index_content .banner_text {
+        font-size: 12px;
+        line-height: 16px;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .index_content .header-btn .btn-custom {
+        height: 30px;
+        line-height: 30px;
+        width: 80px;
+        font-size: 12px;
+        letter-spacing: 0;
+        display: block;
+    }
+    .btns-api {
+        padding-top: 10px !important;
+    }
+    .btns-api .btn-custom {
+        margin: 8px 0 !important;
+    }
+    .copy-right-menu ul {
+        padding-left: 10px;
+    }
+    .header-btn {
+        position: absolute;
+        right: -100px;
+        top: 0px;
+    }
+    .header-btn span {
+        display: block;
+        font-size: 12px;
+    }
+    .agent_title {
+        font-size: 18px;
+    }
+    .agent_list {
+        width: 80%;
+    }
+    .navbar-nav {
+        margin: 0;
+        padding-bottom: 5px;
+        text-align: left;
+    }
+    #header .nav>li {
+        padding: 0 0 0 10px;
+    }
+    #header .active_menu a {
+        border-bottom: none;
+    }
+    #example-navbar-collapse {
+        border-bottom: 1px solid #e7e7e7;
+    }
+}

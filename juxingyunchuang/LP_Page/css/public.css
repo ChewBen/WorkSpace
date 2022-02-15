@@ -1,0 +1,581 @@
+.bg-overlay-3:before {
+    position: absolute;
+    content: "";
+    before: “before “;
+    background-color: #000;
+    opacity: 0.86;
+    background: -webkit-gradient(linear, left top, right top, from(#1e262fdb), to(#6d6e6f));
+    background: -o-linear-gradient(to right, #1e262fdb, #6d6e6f);
+    background: linear-gradient(to right, #1e262fdb, #6d6e6f);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.bg-overlay-3 before {
+    position: absolute;
+    content: "";
+    before: “before “;
+    background-color: #000;
+    opacity: 0.7;
+    background: -webkit-gradient(linear, left top, right top, from(#1e262fdb), to(#6d6e6f));
+    background: -o-linear-gradient(to right, #1e262fdb, #6d6e6f);
+    background: linear-gradient(to right, #1e262fdb, #6d6e6f);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.logo a img {
+    width: 134px;
+}
+
+.header-area .main-header-area .main-menu ul li a {
+    color: #000;
+    font-family: "微软雅黑";
+    padding: 20px 40px 20px 0px;
+}
+
+.header-area {
+    background-color: #fff;
+}
+
+.header-area .main-header-area.sticky {
+    background-color: #fff;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    display: inline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: normal;
+}
+
+/*.table {*/
+
+/*width: 96%;*/
+
+/*}*/
+
+.table {
+    width: 100%;
+}
+
+.welcome-content-5 p {
+    font-size: 18px;
+}
+
+.icon-box.one,
+.icon-box.two,
+.icon-box.two,
+.icon-box.three,
+.icon-box.four {
+    background-color: transparent;
+}
+
+.content-box .inner-box .single-item .icon-box {
+    width: 70%;
+    height: auto;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.content-box .inner-box .single-item h5 {
+    text-align: center;
+    font-size: 16px !important;
+}
+
+.footerpage .footer-contact-area {
+    background: #000;
+}
+
+.table td {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.single_faq h5 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.pic {
+    display: none;
+}
+
+.head {
+    max-width: 70%;
+}
+
+.half {
+    max-width: 85%;
+}
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+    #home {
+        height: 370px !important;
+    }
+    .news_box {
+        width: 83% !important;
+    }
+}
+
+@media (max-width: 575px) and (min-width: 320px) {
+    .head {
+        max-width: 100% !important;
+    }
+    .single-work-area .work-icon {
+        height: 60px !important;
+        width: 60px !important;
+        line-height: 60px !important;
+    }
+    .table td {
+        font-size: 13px !important;
+    }
+    .content-box .inner-box .single-item .icon-box {
+        width: 30% !important;
+    }
+    .feature-icon img {
+        width: 60px !important;
+    }
+    .section-title {
+        margin-bottom: 30px !important;
+    }
+    .copy-right-content p {
+        font-size: 10px !important;
+    }
+    .ukey {
+        padding-bottom: 0 !important;
+    }
+    .ff h4 {
+        font-size: 18px !important;
+    }
+    .welcome-content-6 h3 {
+        font-size: 30px !important;
+    }
+    .welcome-content {
+        padding: 0 12px 0 !important;
+    }
+    .welcome-content h5 {
+        font-size: 15px !important;
+    }
+    .download-content h4 {
+        font-size: 28px;
+        display: block;
+    }
+    .section-title h2 {
+        font-size: 28px;
+        display: block !important;
+    }
+    .section-title p {
+        font-size: 13px;
+    }
+    .price-table-heading h2 {
+        font-size: 24px;
+    }
+    .header-area {
+        padding: 0;
+    }
+    .mt-sm-100 {
+        margin-top: 0px;
+    }
+    .welcome-content h3 {
+        display: block !important;
+        font-size: 34px !important;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    .welcome-content .wow {
+        margin-bottom: 0 !important;
+    }
+    .welcome-content-5 h3 {
+        font-size: 30px !important;
+    }
+    .welcome-content h2 {
+        font-size: 21px;
+        color: #fff;
+    }
+    .single-work-area h4 {
+        font-size: 17px;
+    }
+    .single_faq h5 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .welcome-content-5 h5 {
+        font-size: 22px;
+        margin-top: 2%;
+    }
+    .welcome-area.home-5 {
+        height: 480px;
+    }
+    .banner-right {
+        display: none;
+    }
+    .welcome-area.home-curve {
+        height: 480px;
+    }
+    .pic {
+        display: block !important;
+    }
+    .line {
+        font-size: 22px;
+    }
+    .welcome-area.one {
+        height: 480px;
+    }
+    .feature-content-text h4 {
+        font-size: 17px;
+    }
+    .feet {}
+}
+
+.welcome-content .dz {
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-top: 2%;
+}
+
+.feet {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.welcome-area.brital {
+    height: 480px;
+}
+
+.welcome-area.home-5 {
+    height: 480px;
+}
+
+.welcome-area {
+    height: 480px;
+}
+
+.welcome-area.form-area {
+    height: 250px;
+}
+
+.price-table-heading h2 {
+    font-size: 26px;
+}
+
+.welcome-content h3 {
+    display: inline;
+    font-size: 50px;
+    letter-spacing: 4px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.welcome-content-5 h3 {
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.welcome-content-5 h2 {
+    letter-spacing: 2px;
+    font-size: 24px;
+    display: inline;
+    color: #fff;
+}
+
+.welcome-content-6 h2 {
+    letter-spacing: 2px;
+    font-size: 24px;
+    color: #fff;
+}
+
+#home {
+    background-image: url(../img/bg-img/index.png);
+    background-size: 100% 100%;
+}
+
+@media (max-width:768px) {
+    .welcome-content-6 h5 {
+        font-size: 15px !important;
+    }
+    #home {
+        background-image: url(../img/bg-img/index-iphone.png) !important;
+        background-size: 100% 100%;
+    }
+    .sosa-btn-2 {
+        height: 35px !important;
+        min-width: 90px !important;
+        line-height: 35px !important;
+        font-size: 15px !important;
+    }
+    .home-solution-item-warp {
+        margin-top: 5%;
+    }
+    .content-box .inner-box .sin-item h5 {
+        font-size: 20px !important;
+    }
+    .content-box .inner-box .sin-item .bott {
+        font-size: 18px !important;
+    }
+    .welcome-content-5 h2 {
+        letter-spacing: 2px;
+        font-size: 22px;
+        display: block !important;
+        color: #fff;
+    }
+    .welcome-content-5 .title {
+        margin-bottom: 0;
+    }
+    .welcome-content-5 h5 {
+        font-size: 15px !important;
+    }
+    .sosa-btn-2 {
+        height: 41px;
+        min-width: 122px;
+        line-height: 41px;
+        border-radius: 4px;
+        background-color: #008cff;
+        border: 0;
+    }
+    .table td {
+        font-weight: normal;
+        font-size: 16px;
+    }
+}
+
+.single-feature-area .feature-icon {
+    -webkit-transition-duration: 0ms;
+    -o-transition-duration: 0ms;
+    transition-duration: 0ms;
+}
+
+.single-feature-area {
+    -webkit-transition-duration: 0ms;
+    -o-transition-duration: 0ms;
+    transition-duration: 0ms;
+}
+
+.xt {
+    margin-bottom: 5%;
+}
+
+.in h4 {
+    color: #fff;
+}
+
+.feature-content-text h4 {
+    font-size: 16px;
+}
+
+.all,
+.all_in {
+    color: #fff;
+}
+
+.ff h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8%;
+    font-weight: 600;
+}
+
+.single-work-area h4 {
+    font-size: 16px;
+}
+
+.pricing-table-new .pricing-table {
+    background-color: transparent;
+}
+
+.free {
+    color: #fff;
+    vertical-align: bottom;
+    font-weight: normal;
+}
+
+.sosa-btn-2 {
+    height: 38px;
+    line-height: 38px;
+    min-width: 130px;
+    border-radius: 4px;
+    background-color: #008cff;
+    border: 0;
+}
+
+.content-box .inner-box .sin-item {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    /*padding: 30px;*/
+    -webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.content-box .inner-box .sin-item h5 a {
+    position: relative;
+    display: inline-block;
+    color: #161c2d;
+    font-weight: 600;
+}
+
+.content-box .inner-box .sin-item h5 {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    color: #161c2d;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.low {
+    margin-top: 5%;
+    padding: 0 25px 25px 25px;
+}
+
+.list li {
+    line-height: 20px;
+}
+
+.dot-item {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    background: #006FFF;
+    border-radius: 50%;
+}
+
+.section-padding-100-50 {
+    padding-top: 0;
+    /*padding-bottom: 0;*/
+}
+
+.section-title {
+    margin-bottom: 30px;
+}
+
+.welcome-content-5 h5 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 2%;
+}
+
+.sosa-btn-2 {
+    background-color: #fff;
+    color: #000;
+}
+
+.footerpage .footer-contact-area {
+    background: #1d1d1d;
+}
+
+.welcome-content.home-2 h3 {
+    font-size: 40px;
+}
+
+.section-title .section_top {
+    font-weight: bold;
+    font-size: 42px;
+    color: #333333;
+    letter-spacing: 2px;
+}
+
+.feature-content-text .section_home {
+    font-size: 18px;
+    color: #000;
+}
+
+.welcome-content-6 h3 {
+    font-size: 36px;
+}
+
+.home-solution-item-warp {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 10px 0 rgba(106, 141, 235, .2);
+}
+
+.home-solution-item-warp .home_title {
+    color: #6c7280;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+.home_dec {
+    font-size: 14px;
+    color: #6c7180;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 400;
+    width: 72%;
+    display: block;
+    margin: 0 auto;
+}
+
+.home_img {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+}
+
+.wap {
+    margin-top: 5%;
+}
+
+.feature-text h4 {
+    font-size: 16px;
+}
+
+/*关于我们*/
+
+.company {
+    background-color: #f1f1f1;
+    line-height: 60px;
+}
+
+.case-category-item.active:hover {
+    background-color: #fff;
+    color: #4c90fc;
+    opacity: 1;
+}
+
+.case-category-item {
+    display: inline-block;
+    position: relative;
+    width: 240px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+.about-intro__tit {
+    margin-top: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #191919;
+}
+
+.about-intro__wp {
+    margin-top: 30px;
+}

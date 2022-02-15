@@ -1,0 +1,347 @@
+.section-1 {
+    height: 735px;
+    background-image: url(/main/resource/image/solution/order/section/section_1.jpg)
+}
+
+.section-1 .content .text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 250px
+}
+
+.section-1 .content .text-1 {
+    position: absolute;
+    font-size: 62px;
+    width: 100%;
+    text-align: center;
+    top: 0
+}
+
+.section-1 .content .text-2 {
+    position: absolute;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    top: 100px
+}
+
+.section-2 {
+    height: 960px;
+    background-image: url(..)
+}
+
+.section-2 .content .text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    left: 0
+}
+
+.section-2 .content .text .text-1 {
+    position: absolute;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    top: 100px;
+    letter-spacing: 2px
+}
+
+.section-2 .content .text .text-2,
+.section-2 .content .text .text-3,
+.section-2 .content .text .text-4 {
+    position: absolute;
+    font-size: 22px;
+    top: 780px
+}
+
+.section-2 .content .text .text-2 {
+    left: 145px
+}
+
+.section-2 .content .text .text-3 {
+    left: 540px
+}
+
+.section-2 .content .text .text-4 {
+    left: 900px
+}
+
+.section-3 {
+    height: 696px;
+    background-image: url(/main/resource/image/solution/order/section/section_3.jpg)
+}
+
+.section-3 .content .text {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    top: 290px;
+    left: 20px
+}
+
+.section-3 .content .text .text-1 {
+    font-size: 40px;
+    width: 500px;
+    text-align: left
+}
+
+.section-3 .content .text .text-2 {
+    font-size: 18px;
+    width: 600px;
+    text-align: left;
+    margin: 20px 0 0 0
+}
+
+.section-3 .content .text .text-3,
+.section-3 .content .text .text-4 {
+    display: inline-block;
+    font-size: 18px;
+    width: 200px;
+    text-align: left
+}
+
+.section-3 .content .text .text-3 {
+    margin: 35px 0 0 0
+}
+
+.section-3 .content .text .text-4 {
+    margin: 35px 0 0 20px
+}
+
+.section-3 .content .text .text-5,
+.section-3 .content .text .text-6 {
+    display: inline-block;
+    font-size: 50px;
+    width: 120px;
+    text-align: left
+}
+
+.section-3 .content .text .text-5 {
+    margin: 5px 0 0 0
+}
+
+.section-3 .content .text .text-6 {
+    margin: 5px 0 0 120px
+}
+
+.section-3 .content .text .text-7 {
+    margin: 5px 0 0 0;
+    font-size: 12px
+}
+
+.section-4 {
+    height: 648px;
+    background-image: url(/main/resource/image/solution/order/section/section_4.jpg)
+}
+
+.section-4 .content .text {
+    position: absolute;
+    width: 600px;
+    top: 380px;
+    left: 50px
+}
+
+.section-5 {
+    height: 750px;
+    background-image: url(/main/resource/image/solution/order/section/section_5.jpg)
+}
+
+.section-6 {
+    height: 500px;
+    background-image: url(/main/resource/image/solution/order/section/section_6.jpg)
+}
+
+.section-6 .content .text {
+    position: absolute;
+    width: 100%
+}
+
+.section-6 .content .text .text-1,
+.section-6 .content .text .text-2,
+.section-6 .content .text .text-3 {
+    position: absolute;
+    width: 300px;
+    font-size: 22px;
+    text-align: center;
+    top: 300px;
+    line-height: 38px
+}
+
+.section-6 .content .text .text-1 {
+    left: 60px
+}
+
+.section-6 .content .text .text-2 {
+    left: 455px
+}
+
+.section-6 .content .text .text-3 {
+    left: 860px
+}
+
+.section-7 {
+    height: 599px;
+    background-image: url(/main/resource/image/solution/order/section/section_7.jpg)
+}
+
+.section-7 .content .text {
+    position: absolute;
+    width: 600px;
+    top: 300px;
+    left: 50px
+}
+
+.section-8 {
+    height: 701px;
+    background-image: url(/main/resource/image/solution/order/section/section_8.jpg)
+}
+
+.section-8 .content .text {
+    position: absolute;
+    width: 600px;
+    top: 310px;
+    left: 50px
+}
+
+.section-9 {
+    height: 637px;
+    background-image: url(/main/resource/image/solution/order/section/section_9.jpg)
+}
+
+.section-9 .content .text {
+    position: absolute;
+    width: 100%;
+    text-align: center
+}
+
+.section-9 .content .text .text-1 {
+    position: absolute;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    top: 110px
+}
+
+.section-9 .content .text .text-2,
+.section-9 .content .text .text-3,
+.section-9 .content .text .text-4,
+.section-9 .content .text .text-5 {
+    position: absolute;
+    font-size: 22px;
+    width: 200px;
+    text-align: center;
+    top: 400px
+}
+
+.section-9 .content .text .text-2 {
+    left: 100px
+}
+
+.section-9 .content .text .text-3 {
+    left: 370px
+}
+
+.section-9 .content .text .text-4 {
+    left: 630px
+}
+
+.section-9 .content .text .text-5 {
+    left: 885px
+}
+
+.section-9 .content .text .text-6,
+.section-9 .content .text .text-7,
+.section-9 .content .text .text-8,
+.section-9 .content .text .text-9 {
+    position: absolute;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    top: 450px
+}
+
+.section-9 .content .text .text-6 {
+    left: 105px
+}
+
+.section-9 .content .text .text-7 {
+    left: 380px
+}
+
+.section-9 .content .text .text-8 {
+    left: 635px
+}
+
+.section-9 .content .text .text-9 {
+    left: 895px
+}
+
+.section-10 {
+    height: 819px;
+    background-image: url(/main/resource/image/solution/order/section/section_10.jpg)
+}
+
+.section-10 .content .text {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.section-10 .content .text .purchase {
+    position: absolute;
+    font-size: 20px;
+    width: 245px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    background-color: #ff6727;
+    letter-spacing: 2px;
+    border-radius: 10px
+}
+
+.section-10 .content .text .purchase-1 {
+    top: 710px;
+    left: 240px
+}
+
+.section-10 .content .text .purchase-2 {
+    top: 710px;
+    left: 710px
+}
+
+.section-11 {
+    height: 725px;
+    background-image: url(/main/resource/image/solution/order/section/section_11.jpg)
+}
+
+.section-11 .content .text {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.section-11 .content .text .purchase {
+    position: absolute;
+    font-size: 20px;
+    width: 245px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    background-color: #ff6727;
+    letter-spacing: 2px;
+    border-radius: 10px
+}
+
+.section-11 .content .text .purchase-1 {
+    top: 520px;
+    left: 240px
+}
+
+.section-11 .content .text .purchase-2 {
+    top: 520px;
+    left: 710px
+}
